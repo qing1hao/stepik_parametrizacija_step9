@@ -8,4 +8,5 @@ Things yet to be supported:
 
 - `feed._open_stories.preview`
 - `feed.items[]._open_stories.preview`
-- `feed.items[]._open_stories.duration
+- `feed.items[]._open_stories.duration_in_seconds`
+- `feed.items[]._open
