@@ -7,4 +7,5 @@ An [OpenStoriesFeed](https://github.com/dddddddddzzzz/OpenStories) viewer. See i
 Things yet to be supported: 
 
 - `feed._open_stories.preview`
-- `feed.items[]._open_stories.prev
+- `feed.items[]._open_stories.preview`
+- `feed.items[]._open_stories.duration
