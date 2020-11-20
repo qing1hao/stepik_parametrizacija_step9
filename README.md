@@ -14,4 +14,6 @@ Things yet to be supported:
 
 ## Usage
 
-```htm
+```html
+<!-- Include `OpenStoriesElement` -->
+<script src="https://un
