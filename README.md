@@ -18,4 +18,5 @@ Things yet to be supported:
 <!-- Include `OpenStoriesElement` -->
 <script src="https://unpkg.com/open-stories-element@0.0.16" type="module" defer></script>
 
-<!-- Render `<open-sto
+<!-- Render `<open-stories>` -->
+<open-stories src="./feed.json"></open-stori
