@@ -19,4 +19,7 @@ Things yet to be supported:
 <script src="https://unpkg.com/open-stories-element@0.0.16" type="module" defer></script>
 
 <!-- Render `<open-stories>` -->
-<open-stories src="./feed.json"></open-stori
+<open-stories src="./feed.json"></open-stories>
+```
+
+This requires native [`<dialog>`](h
