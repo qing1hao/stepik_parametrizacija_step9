@@ -16,4 +16,6 @@ Things yet to be supported:
 
 ```html
 <!-- Include `OpenStoriesElement` -->
-<script src="https://unpkg.com/open-stories-element@0.0.16" type="module" de
+<script src="https://unpkg.com/open-stories-element@0.0.16" type="module" defer></script>
+
+<!-- Render `<open-sto
