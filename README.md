@@ -22,4 +22,4 @@ Things yet to be supported:
 <open-stories src="./feed.json"></open-stories>
 ```
 
-This requires native [`<dialog>`](h
+This requires native [`<dialog>`](https://caniuse.com/dialog) and [Shadow DOM](https://c
