@@ -26,4 +26,4 @@ This requires native [`<dialog>`](https://caniuse.com/dialog) and [Shadow DOM](h
 
 ## Parts
 
-Style elements with `::part` ([MDN](https://d
+Style elements with `::part` ([MDN](https://developer.mozilla.org/en-US/docs/Web/CSS
