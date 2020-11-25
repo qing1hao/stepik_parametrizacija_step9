@@ -26,4 +26,8 @@ This requires native [`<dialog>`](https://caniuse.com/dialog) and [Shadow DOM](h
 
 ## Parts
 
-Style elements with `::part` ([MDN](https://developer.mozilla.org/en-US/docs/Web/CSS
+Style elements with `::part` ([MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/::part)):
+
+### Button
+
+`open-stories::part(button)` is the 
