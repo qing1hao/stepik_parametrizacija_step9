@@ -22,4 +22,4 @@ Things yet to be supported:
 <open-stories src="./feed.json"></open-stories>
 ```
 
-This requires native [`<dialog>`](https://caniuse.com/dialog) and [Shadow DOM](https://c
+This requires native [`<dialog>`](https://caniuse.com/dialog) and [Shadow DOM](https://caniuse.com/shadowdomv1) support. No polyfills in
