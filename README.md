@@ -30,4 +30,4 @@ Style elements with `::part` ([MDN](https://developer.mozilla.org/en-US/docs/Web
 
 ### Button
 
-`open-stories::part(button)` is the selector for the `<button>` that opens the story m
+`open-stories::part(button)` is the selector for the `<button>` that opens the story modal. It would be good to style `open-storie
