@@ -32,4 +32,6 @@ Style elements with `::part` ([MDN](https://developer.mozilla.org/en-US/docs/Web
 
 `open-stories::part(button)` is the selector for the `<button>` that opens the story modal. It would be good to style `open-stories:not(:defined)` the same way, to prevent style flashing as the script executes.
 
-##
+### Advanced
+
+- `open-stories::part(dialog)`: The mo
