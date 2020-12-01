@@ -34,4 +34,5 @@ Style elements with `::part` ([MDN](https://developer.mozilla.org/en-US/docs/Web
 
 ### Advanced
 
-- `open-stories::part(dialog)`: The mo
+- `open-stories::part(dialog)`: The modal `<dialog>`.
+- `open-stories::part(loading-visual)
