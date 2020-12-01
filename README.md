@@ -36,4 +36,5 @@ Style elements with `::part` ([MDN](https://developer.mozilla.org/en-US/docs/Web
 
 - `open-stories::part(dialog)`: The modal `<dialog>`.
 - `open-stories::part(loading-visual)`: The loading overlay.
-- `open-stories::p
+- `open-stories::part(metadata)`: The `<details>` for metadata.
+- `open-stories::part(me
