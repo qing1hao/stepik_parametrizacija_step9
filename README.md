@@ -38,4 +38,6 @@ Style elements with `::part` ([MDN](https://developer.mozilla.org/en-US/docs/Web
 - `open-stories::part(loading-visual)`: The loading overlay.
 - `open-stories::part(metadata)`: The `<details>` for metadata.
 - `open-stories::part(metadata-summary)`: The `<summary>` for expanding metadata.
-- `open-stories::part(metadata-content)
+- `open-stories::part(metadata-content)`: The metadata content container.
+
+## Button text 
