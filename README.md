@@ -40,4 +40,6 @@ Style elements with `::part` ([MDN](https://developer.mozilla.org/en-US/docs/Web
 - `open-stories::part(metadata-summary)`: The `<summary>` for expanding metadata.
 - `open-stories::part(metadata-content)`: The metadata content container.
 
-## Button text 
+## Button text / `<slot>`
+
+Whatever you put inside `<open-stories>HER
