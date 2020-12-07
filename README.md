@@ -46,4 +46,4 @@ Whatever you put inside `<open-stories>HERE</open-stories>` will replace the def
 
 ## Attributes
 
-- `src`: Required. A [OpenStoriesFeed
+- `src`: Required. A [OpenStoriesFeed](https://github.com/dddddddddzzzz/O
