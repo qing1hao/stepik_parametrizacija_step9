@@ -44,4 +44,6 @@ Style elements with `::part` ([MDN](https://developer.mozilla.org/en-US/docs/Web
 
 Whatever you put inside `<open-stories>HERE</open-stories>` will replace the default button text "View Stories".  ([MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/slot))
 
-##
+## Attributes
+
+- `src`: Required. A [OpenStoriesFeed
