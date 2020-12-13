@@ -48,4 +48,5 @@ Whatever you put inside `<open-stories>HERE</open-stories>` will replace the def
 
 - `src`: Required. A [OpenStoriesFeed](https://github.com/dddddddddzzzz/OpenStories) URL.
 - `duration`: Optional. Number in seconds. Default to `5`.
-- `show-metadata`: Optional
+- `show-metadata`: Optional. Display `items[]._open_stories.caption`.
+- `is-
