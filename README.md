@@ -51,4 +51,7 @@ Whatever you put inside `<open-stories>HERE</open-stories>` will replace the def
 - `show-metadata`: Optional. Display `items[]._open_stories.caption`.
 - `is-highlight`: Optional. View history does not get set.
 
-## 
+## Classes
+
+- `.is-empty`: Present when no stories found.
+- `.is-read
