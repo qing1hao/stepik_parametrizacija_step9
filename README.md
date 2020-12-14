@@ -54,4 +54,5 @@ Whatever you put inside `<open-stories>HERE</open-stories>` will replace the def
 ## Classes
 
 - `.is-empty`: Present when no stories found.
-- `.is-read`: Present when stories have all been viewed. This relies on `localStroage` and does not work cross-
+- `.is-read`: Present when stories have all been viewed. This relies on `localStroage` and does not work cross-origin/cross-devices.
+- `.is-paused`: Present autopla
