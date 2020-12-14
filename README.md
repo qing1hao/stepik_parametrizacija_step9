@@ -54,4 +54,4 @@ Whatever you put inside `<open-stories>HERE</open-stories>` will replace the def
 ## Classes
 
 - `.is-empty`: Present when no stories found.
-- `.is-read
+- `.is-read`: Present when stories have all been viewed. This r
