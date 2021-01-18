@@ -8,4 +8,5 @@
     "dist/index.d.ts"
   ],
   "scripts": {
-    "start": "
+    "start": "tsc -w",
+    "prepare": "tsc && terser dist/index.
