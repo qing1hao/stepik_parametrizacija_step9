@@ -13,4 +13,6 @@
   },
   "author": "Mu-An Chiou <pkg@muan.dev>",
   "license": "MIT",
-  "devDependencies
+  "devDependencies": {
+    "terser": "^5.14.2",
+    "type
