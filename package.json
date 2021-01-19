@@ -15,4 +15,5 @@
   "license": "MIT",
   "devDependencies": {
     "terser": "^5.14.2",
-    "type
+    "typescript": "^4.7.4",
+    "openstories-types": 
