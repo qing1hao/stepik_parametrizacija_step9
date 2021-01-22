@@ -1,3 +1,6 @@
 import {OpenStoriesFeed} from 'openstories-types'
 
-function css(duration: nu
+function css(duration: number) {
+  return `
+  :host {
+    display: inli
