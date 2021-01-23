@@ -9,4 +9,5 @@ function css(duration: number) {
     --magic-w: 88vw;
   }
 
-  ::back
+  ::backdrop {
+    background-color: rgba(0, 0, 0, 0
