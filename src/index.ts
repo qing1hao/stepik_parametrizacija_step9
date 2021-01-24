@@ -22,4 +22,6 @@ function css(duration: number) {
     margin: 0;
   }
   
-  #sid
+  #side-controls {
+    display: flex;
+    flex-dir
