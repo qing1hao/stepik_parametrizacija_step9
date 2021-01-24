@@ -15,4 +15,6 @@ function css(duration: number) {
 
   dialog button {
     border: 0;
-    background
+    background: 0;
+    appearance: none;
+    cursor: pointer;
