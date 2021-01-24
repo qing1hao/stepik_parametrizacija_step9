@@ -10,4 +10,9 @@ function css(duration: number) {
   }
 
   ::backdrop {
-    background-color: rgba(0, 0, 0, 0
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+
+  dialog button {
+    border: 0;
+    background
