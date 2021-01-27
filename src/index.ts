@@ -24,4 +24,6 @@ function css(duration: number) {
   
   #side-controls {
     display: flex;
-    flex-dir
+    flex-direction: column;
+    align-items: center;
+    gap: 0.7vh
