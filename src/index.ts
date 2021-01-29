@@ -32,4 +32,7 @@ function css(duration: number) {
   #side-controls #close,
   #play,
   #pause {
- 
+    display: none;
+  }
+  
+  dialog.is-paused
