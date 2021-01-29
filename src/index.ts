@@ -26,4 +26,10 @@ function css(duration: number) {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 0.7vh
+    gap: 0.7vh;
+  }
+
+  #side-controls #close,
+  #play,
+  #pause {
+ 
