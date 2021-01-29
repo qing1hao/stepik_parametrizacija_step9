@@ -35,4 +35,8 @@ function css(duration: number) {
     display: none;
   }
   
-  dialog.is-paused
+  dialog.is-paused #play {
+    display: block;
+  }
+
+  dialog:n
