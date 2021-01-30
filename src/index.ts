@@ -41,4 +41,7 @@ function css(duration: number) {
 
   dialog:not(.is-paused) #pause {
     display: block;
- 
+  }
+
+  :host(open-stories.is-empty) .ring {
+   
