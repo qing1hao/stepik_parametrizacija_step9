@@ -44,4 +44,7 @@ function css(duration: number) {
   }
 
   :host(open-stories.is-empty) .ring {
-   
+    opacity: 0.5;
+  }
+
+  :host(open-stories:not(.is-read
