@@ -48,4 +48,10 @@ function css(duration: number) {
   }
 
   :host(open-stories:not(.is-read):not(.is-empty)) .ring {
-    border: 2px solid 
+    border: 2px solid #08c;
+    margin: 0;
+  }
+
+  .avatar {
+    width: 100%;
+    aspect-
