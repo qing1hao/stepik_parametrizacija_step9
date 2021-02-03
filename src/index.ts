@@ -54,4 +54,9 @@ function css(duration: number) {
 
   .avatar {
     width: 100%;
-    aspect-
+    aspect-ratio: 1;
+    border-radius: 50%;
+  }
+
+  dialog {
+ 
