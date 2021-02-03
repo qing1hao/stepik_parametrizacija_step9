@@ -59,4 +59,4 @@ function css(duration: number) {
   }
 
   dialog {
- 
+    height: min(var(--magic-h), var(--magi
