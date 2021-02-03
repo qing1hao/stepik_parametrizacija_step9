@@ -59,4 +59,7 @@ function css(duration: number) {
   }
 
   dialog {
-    height: min(var(--magic-h), var(--magi
+    height: min(var(--magic-h), var(--magic-w) * 16/9);
+    padding: 0;
+    border: 0;
+    a
