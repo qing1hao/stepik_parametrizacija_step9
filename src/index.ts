@@ -64,4 +64,5 @@ function css(duration: number) {
     border: 0;
     aspect-ratio: 9/16;
     background: transparent;
-    overfl
+    overflow: visible;
+    max-height: var(--magic-h
