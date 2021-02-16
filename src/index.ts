@@ -62,4 +62,6 @@ function css(duration: number) {
     height: min(var(--magic-h), var(--magic-w) * 16/9);
     padding: 0;
     border: 0;
-    a
+    aspect-ratio: 9/16;
+    background: transparent;
+    overfl
