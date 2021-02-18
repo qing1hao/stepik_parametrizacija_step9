@@ -65,4 +65,8 @@ function css(duration: number) {
     aspect-ratio: 9/16;
     background: transparent;
     overflow: visible;
-    max-height: var(--magic-h
+    max-height: var(--magic-h);
+    max-width: var(--magic-w);
+  }
+  
+ 
