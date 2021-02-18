@@ -69,4 +69,7 @@ function css(duration: number) {
     max-width: var(--magic-w);
   }
   
- 
+  #images {
+    overflow: hidden;
+    height: 100%;
+  
