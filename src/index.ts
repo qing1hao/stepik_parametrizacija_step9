@@ -79,4 +79,7 @@ function css(duration: number) {
   }
 
   #images img {
-    position: abs
+    position: absolute;
+    max-height: 100%;
+    max-width: 100%;
+    aspect-rati
