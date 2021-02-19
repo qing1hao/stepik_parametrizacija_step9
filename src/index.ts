@@ -76,3 +76,7 @@ function css(duration: number) {
     position: absolute;
     background: #000;
     border-radius: 10px;
+  }
+
+  #images img {
+    position: abs
