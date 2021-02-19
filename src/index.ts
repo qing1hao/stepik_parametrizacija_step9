@@ -74,3 +74,5 @@ function css(duration: number) {
     height: 100%;
     width: 100%;
     position: absolute;
+    background: #000;
+    border-radius: 10px;
