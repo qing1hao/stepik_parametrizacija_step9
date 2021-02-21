@@ -82,4 +82,9 @@ function css(duration: number) {
     position: absolute;
     max-height: 100%;
     max-width: 100%;
-    aspect-rati
+    aspect-ratio: 9/16;
+    top: 0;
+    opacity: 0;
+  }
+
+  #images img.s
