@@ -87,4 +87,9 @@ function css(duration: number) {
     opacity: 0;
   }
 
-  #images img.s
+  #images img.shown {
+    opacity: 1;
+  }
+
+  .bar {
+    borde
