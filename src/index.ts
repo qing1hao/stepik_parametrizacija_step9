@@ -92,4 +92,6 @@ function css(duration: number) {
   }
 
   .bar {
-    borde
+    border-radius: 3px;
+    overflow: hidden;
+    height: 100
