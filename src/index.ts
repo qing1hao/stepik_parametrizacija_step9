@@ -96,4 +96,6 @@ function css(duration: number) {
     overflow: hidden;
     height: 100%;
     background: rgba(200, 200, 200, .2);
-    z-
+    z-index: 1;
+    flex: auto;
+    box-shadow: 0 0 10p
