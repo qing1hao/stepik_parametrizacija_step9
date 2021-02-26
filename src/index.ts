@@ -98,4 +98,7 @@ function css(duration: number) {
     background: rgba(200, 200, 200, .2);
     z-index: 1;
     flex: auto;
-    box-shadow: 0 0 10p
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    transition: all 200ms;
+  }
+
