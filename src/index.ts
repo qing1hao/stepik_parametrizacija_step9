@@ -102,3 +102,6 @@ function css(duration: number) {
     transition: all 200ms;
   }
 
+  #bars:hover .bar {
+    height: 4px;
+  
