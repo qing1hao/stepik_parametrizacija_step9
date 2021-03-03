@@ -104,4 +104,8 @@ function css(duration: number) {
 
   #bars:hover .bar {
     height: 4px;
-  
+    transform: translateY(-1px);
+  }
+
+  #bars {
+    left: 0
