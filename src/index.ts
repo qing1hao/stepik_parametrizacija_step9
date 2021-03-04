@@ -112,4 +112,6 @@ function css(duration: number) {
     right: 0;
     top: 0;
     height: 2px;
-  
+    position: absolute;
+    padding: 10px;
+    dis
