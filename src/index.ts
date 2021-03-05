@@ -114,4 +114,9 @@ function css(duration: number) {
     height: 2px;
     position: absolute;
     padding: 10px;
-    dis
+    display: flex;
+    gap: 5px;
+    z-index: 2;
+  }
+
+  #s
