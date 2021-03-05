@@ -119,4 +119,6 @@ function css(duration: number) {
     z-index: 2;
   }
 
-  #s
+  #side-controls button,
+  #side-controls a {
+    disp
