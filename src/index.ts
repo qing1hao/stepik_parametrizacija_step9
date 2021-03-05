@@ -121,4 +121,8 @@ function css(duration: number) {
 
   #side-controls button,
   #side-controls a {
-    disp
+    display: inline-flex;
+  }
+
+  #time {
+    position: abs
