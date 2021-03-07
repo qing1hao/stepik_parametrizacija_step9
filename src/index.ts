@@ -125,4 +125,7 @@ function css(duration: number) {
   }
 
   #time {
-    position: abs
+    position: absolute;
+    margin: 10px;
+    top: 0; 
+    left: 0;
