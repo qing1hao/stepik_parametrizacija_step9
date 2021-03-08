@@ -129,3 +129,8 @@ function css(duration: number) {
     margin: 10px;
     top: 0; 
     left: 0;
+    z-index: 1;
+  }
+
+  #time, {
+    col
