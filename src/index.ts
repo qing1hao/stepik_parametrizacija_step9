@@ -138,3 +138,6 @@ function css(duration: number) {
 
   #time,
   #metadata,
+  #more {
+    color: #fff;
+    font-size: 1.7v
