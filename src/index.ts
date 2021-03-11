@@ -143,4 +143,8 @@ function css(duration: number) {
     font-size: 1.7vh;
     font-weight: 600;
     text-shadow: 0 0 2px black;;
-  
+  }
+
+  svg {
+    width: auto;
+    height: 3.5
