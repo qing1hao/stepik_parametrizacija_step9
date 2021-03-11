@@ -140,4 +140,7 @@ function css(duration: number) {
   #metadata,
   #more {
     color: #fff;
-    font-size: 1.7v
+    font-size: 1.7vh;
+    font-weight: 600;
+    text-shadow: 0 0 2px black;;
+  
