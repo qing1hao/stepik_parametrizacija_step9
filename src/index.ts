@@ -152,4 +152,7 @@ function css(duration: number) {
     line-height: 0;
   }
 
-  #bottom-c
+  #bottom-controls {
+    position: absolute;
+    z-index: 1;
+   
