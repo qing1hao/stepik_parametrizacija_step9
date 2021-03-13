@@ -148,4 +148,8 @@ function css(duration: number) {
   svg {
     width: auto;
     height: 3.5vh;
-    filter: drop-shadow(0 0 3px rgba(0,
+    filter: drop-shadow(0 0 3px rgba(0, 0, 0, .5));
+    line-height: 0;
+  }
+
+  #bottom-c
