@@ -155,4 +155,8 @@ function css(duration: number) {
   #bottom-controls {
     position: absolute;
     z-index: 1;
-   
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+ 
