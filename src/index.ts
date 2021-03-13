@@ -147,4 +147,5 @@ function css(duration: number) {
 
   svg {
     width: auto;
-    height: 3.5
+    height: 3.5vh;
+    filter: drop-shadow(0 0 3px rgba(0,
