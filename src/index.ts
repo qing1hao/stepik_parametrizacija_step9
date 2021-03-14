@@ -159,4 +159,6 @@ function css(duration: number) {
     left: 0;
     right: 0;
     padding: 10px;
- 
+    display: flex;
+    align-items: end;
+    ov
