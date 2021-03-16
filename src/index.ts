@@ -161,4 +161,9 @@ function css(duration: number) {
     padding: 10px;
     display: flex;
     align-items: end;
-    ov
+    overflow: hidden;
+    gap: 1vh;
+  }
+
+  .action {
+   
