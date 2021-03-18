@@ -166,4 +166,6 @@ function css(duration: number) {
   }
 
   .action {
-   
+    cursor: pointer;
+    transition: transform .3s;
+ 
