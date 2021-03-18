@@ -171,4 +171,5 @@ function css(duration: number) {
   }
 
   .action:not([disabled]):hover,
-  .action:not([
+  .action:not([disabled]):focus {
+    transform: scale(1.2
