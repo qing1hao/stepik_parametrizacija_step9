@@ -181,3 +181,8 @@ function css(duration: number) {
     display: inline-flex;
   }
 
+  #open-heart .off {
+    transition: opacity .3s;
+  }
+
+  
