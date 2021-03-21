@@ -185,4 +185,6 @@ function css(duration: number) {
     transition: opacity .3s;
   }
 
-  
+  #open-heart .on {
+    position: absolute;
+    
