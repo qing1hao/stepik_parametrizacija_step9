@@ -177,4 +177,7 @@ function css(duration: number) {
 
   #open-heart {
     left: auto;
-    righ
+    right: 0;
+    display: inline-flex;
+  }
+
