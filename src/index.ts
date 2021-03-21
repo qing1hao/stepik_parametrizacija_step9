@@ -172,4 +172,9 @@ function css(duration: number) {
 
   .action:not([disabled]):hover,
   .action:not([disabled]):focus {
-    transform: scale(1.2
+    transform: scale(1.2);
+  }
+
+  #open-heart {
+    left: auto;
+    righ
