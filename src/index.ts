@@ -187,4 +187,7 @@ function css(duration: number) {
 
   #open-heart .on {
     position: absolute;
-    
+    z-index: 1;
+    opacity: 0;
+    transform: scale(0);
+   
