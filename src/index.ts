@@ -193,4 +193,6 @@ function css(duration: number) {
     transition: transform .3s;
   }
 
-  #open-heart[aria-presse
+  #open-heart[aria-pressed="true"] .on { 
+    transform: scale(1);
+    opacity: 
