@@ -190,4 +190,7 @@ function css(duration: number) {
     z-index: 1;
     opacity: 0;
     transform: scale(0);
-   
+    transition: transform .3s;
+  }
+
+  #open-heart[aria-presse
