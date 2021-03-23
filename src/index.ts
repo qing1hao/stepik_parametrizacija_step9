@@ -198,4 +198,6 @@ function css(duration: number) {
     opacity: 1;
   }
 
-  #open-heart[aria-pressed="true"] .off { o
+  #open-heart[aria-pressed="true"] .off { opacity: 0; }
+
+  #open-heart[aria-pressed
