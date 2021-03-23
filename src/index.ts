@@ -200,4 +200,6 @@ function css(duration: number) {
 
   #open-heart[aria-pressed="true"] .off { opacity: 0; }
 
-  #open-heart[aria-pressed
+  #open-heart[aria-pressed="true"] path { fill: #f00; }
+
+  #open-heart[
