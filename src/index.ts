@@ -195,4 +195,7 @@ function css(duration: number) {
 
   #open-heart[aria-pressed="true"] .on { 
     transform: scale(1);
-    opacity: 
+    opacity: 1;
+  }
+
+  #open-heart[aria-pressed="true"] .off { o
