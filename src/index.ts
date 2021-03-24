@@ -204,4 +204,6 @@ function css(duration: number) {
 
   #open-heart[aria-busy="true"] { animation: pulsate .4s infinite; }
 
-  @keyframes pulsa
+  @keyframes pulsate {
+    0% { transform: scale(1) }
+   
