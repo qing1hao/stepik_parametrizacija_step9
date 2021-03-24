@@ -202,4 +202,6 @@ function css(duration: number) {
 
   #open-heart[aria-pressed="true"] path { fill: #f00; }
 
-  #open-heart[aria-busy="true"] { animation: puls
+  #open-heart[aria-busy="true"] { animation: pulsate .4s infinite; }
+
+  @keyframes pulsa
