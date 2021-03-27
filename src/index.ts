@@ -206,4 +206,7 @@ function css(duration: number) {
 
   @keyframes pulsate {
     0% { transform: scale(1) }
-   
+    100% { transform: scale(1.2) }
+  }
+
+  #open-h
