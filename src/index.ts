@@ -209,4 +209,8 @@ function css(duration: number) {
     100% { transform: scale(1.2) }
   }
 
-  #open-h
+  #open-heart[errored] {
+    opacity: .5;
+  }
+
+  #met
