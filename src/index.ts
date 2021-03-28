@@ -213,4 +213,6 @@ function css(duration: number) {
     opacity: .5;
   }
 
-  #met
+  #metadata-details {
+    display: flex;
+    flex: 1 1 
