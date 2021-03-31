@@ -215,4 +215,6 @@ function css(duration: number) {
 
   #metadata-details {
     display: flex;
-    flex: 1 1 
+    flex: 1 1 auto;
+    align-items: end;
+    overflow: hidd
