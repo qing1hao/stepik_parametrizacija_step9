@@ -217,4 +217,7 @@ function css(duration: number) {
     display: flex;
     flex: 1 1 auto;
     align-items: end;
-    overflow: hidd
+    overflow: hidden;
+    padding: 0.7vh 0;
+    gap: 0.7vh; 
+  }
