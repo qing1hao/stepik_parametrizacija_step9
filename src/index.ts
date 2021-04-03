@@ -225,3 +225,10 @@ function css(duration: number) {
   #metadata,
   #more {
     line-height: 1.5em;
+  }
+
+  .is-collapsed #more {
+    display: block;
+  }
+  
+  
