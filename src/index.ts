@@ -231,4 +231,8 @@ function css(duration: number) {
     display: block;
   }
   
-  
+  #more {
+    display: none;
+    cursor: pointer;
+  }
+
