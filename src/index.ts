@@ -221,3 +221,7 @@ function css(duration: number) {
     padding: 0.7vh 0;
     gap: 0.7vh; 
   }
+
+  #metadata,
+  #more {
+    line-height: 1.5em;
