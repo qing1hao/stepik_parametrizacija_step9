@@ -236,3 +236,6 @@ function css(duration: number) {
     cursor: pointer;
   }
 
+  #metadata {
+    flex: 1 1 auto;
+    white-space: 
