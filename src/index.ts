@@ -246,3 +246,5 @@ function css(duration: number) {
     text-overflow: ellipsis;
   }
 
+  .is-expanded #metadata {
+    white-space: 
