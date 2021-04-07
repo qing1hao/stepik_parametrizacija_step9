@@ -247,4 +247,9 @@ function css(duration: number) {
   }
 
   .is-expanded #metadata {
-    white-space: 
+    white-space: normal;
+  }
+
+  #metadata a {
+    color: #000;
+ 
