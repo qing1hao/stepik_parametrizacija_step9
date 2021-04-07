@@ -238,4 +238,8 @@ function css(duration: number) {
 
   #metadata {
     flex: 1 1 auto;
-    white-space: 
+    white-space: nowrap;
+  }
+  
+  .is-collapsed #metadata {
+    
