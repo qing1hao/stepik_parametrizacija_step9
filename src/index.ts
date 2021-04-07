@@ -242,4 +242,7 @@ function css(duration: number) {
   }
   
   .is-collapsed #metadata {
-    
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
