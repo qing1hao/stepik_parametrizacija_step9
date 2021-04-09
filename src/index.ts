@@ -256,4 +256,8 @@ function css(duration: number) {
 
   .progress {
     height: 100%;
-    animation: none
+    animation: none;
+    background-color: #fff;
+  }
+  
+  .progressing ~
