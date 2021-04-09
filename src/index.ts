@@ -260,4 +260,7 @@ function css(duration: number) {
     background-color: #fff;
   }
   
-  .progressing ~
+  .progressing ~ .bar .progress {
+    background-color: transparent;
+    width: auto;
+  
