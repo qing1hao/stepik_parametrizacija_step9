@@ -263,4 +263,7 @@ function css(duration: number) {
   .progressing ~ .bar .progress {
     background-color: transparent;
     width: auto;
-  
+  }
+
+  .is-loading .progressing .progress,
+  .is-p
