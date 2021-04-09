@@ -252,4 +252,8 @@ function css(duration: number) {
 
   #metadata a {
     color: #000;
- 
+  }
+
+  .progress {
+    height: 100%;
+    animation: none
