@@ -267,4 +267,7 @@ function css(duration: number) {
 
   .is-loading .progressing .progress,
   .is-paused .progressing .progress {
-    animation
+    animation-play-state: paused;
+  }
+
+  .progressing .progress
