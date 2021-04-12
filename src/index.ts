@@ -270,4 +270,6 @@ function css(duration: number) {
     animation-play-state: paused;
   }
 
-  .progressing .progress
+  .progressing .progress {
+    width: 0;
+    animation: progress ${duration}s 
