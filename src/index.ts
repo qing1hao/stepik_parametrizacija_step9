@@ -275,3 +275,6 @@ function css(duration: number) {
     animation: progress ${duration}s linear;
     animation-play-state: running;
   }
+
+  @keyframes progress {
+    0% { width: 0%
