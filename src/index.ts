@@ -272,4 +272,6 @@ function css(duration: number) {
 
   .progressing .progress {
     width: 0;
-    animation: progress ${duration}s 
+    animation: progress ${duration}s linear;
+    animation-play-state: running;
+  }
