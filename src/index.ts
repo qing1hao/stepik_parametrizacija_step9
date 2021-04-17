@@ -277,4 +277,8 @@ function css(duration: number) {
   }
 
   @keyframes progress {
-    0% { width: 0%
+    0% { width: 0%; }
+    100% { width: 100%; }
+  }
+
+  .is-lo
