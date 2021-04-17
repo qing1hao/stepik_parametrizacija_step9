@@ -281,4 +281,6 @@ function css(duration: number) {
     100% { width: 100%; }
   }
 
-  .is-lo
+  .is-loading button,
+  .is-loading #controls,
+  .is
