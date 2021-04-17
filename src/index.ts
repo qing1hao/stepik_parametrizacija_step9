@@ -283,4 +283,5 @@ function css(duration: number) {
 
   .is-loading button,
   .is-loading #controls,
-  .is
+  .is-loading #metadata-details,
+  .is-loading #open-hear
