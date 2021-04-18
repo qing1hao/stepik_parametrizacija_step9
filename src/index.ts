@@ -295,3 +295,7 @@ function css(duration: number) {
   .is-loading .loading-visual {
     display: block;
     position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 2vh;
+  
