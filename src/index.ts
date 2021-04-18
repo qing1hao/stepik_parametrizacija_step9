@@ -284,4 +284,8 @@ function css(duration: number) {
   .is-loading button,
   .is-loading #controls,
   .is-loading #metadata-details,
-  .is-loading #open-hear
+  .is-loading #open-heart {
+    display: none;
+  }
+
+  .is-
