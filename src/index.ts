@@ -288,4 +288,8 @@ function css(duration: number) {
     display: none;
   }
 
-  .is-
+  .is-loading #images img {
+    opacity: 0;
+  }
+
+  .is-loading .loading-
