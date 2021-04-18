@@ -292,4 +292,6 @@ function css(duration: number) {
     opacity: 0;
   }
 
-  .is-loading .loading-
+  .is-loading .loading-visual {
+    display: block;
+    position: absolute;
