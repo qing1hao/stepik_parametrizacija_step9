@@ -298,4 +298,6 @@ function css(duration: number) {
     top: 50%;
     left: 50%;
     width: 2vh;
-  
+    aspect-ratio: 1;
+    text-align: center;
+    bac
