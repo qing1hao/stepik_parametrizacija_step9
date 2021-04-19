@@ -303,4 +303,5 @@ function css(duration: number) {
     background: #fff;
     z-index: 1;
     margin-left: -1vh;
-  
+    animation: rotate 2s linear infinite;
+    font-s
