@@ -300,4 +300,7 @@ function css(duration: number) {
     width: 2vh;
     aspect-ratio: 1;
     text-align: center;
-    bac
+    background: #fff;
+    z-index: 1;
+    margin-left: -1vh;
+  
