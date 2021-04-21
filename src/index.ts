@@ -309,4 +309,8 @@ function css(duration: number) {
 
   @keyframes rotate {
     0% { transform: rotate(0deg); }
-    100% { transform: rota
+    100% { transform: rotate(360deg); }
+  }
+
+  .loading-visual {
+    display: n
