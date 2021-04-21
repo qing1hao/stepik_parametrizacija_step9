@@ -308,4 +308,5 @@ function css(duration: number) {
   }
 
   @keyframes rotate {
-    0% { transform: 
+    0% { transform: rotate(0deg); }
+    100% { transform: rota
