@@ -304,4 +304,8 @@ function css(duration: number) {
     z-index: 1;
     margin-left: -1vh;
     animation: rotate 2s linear infinite;
-    font-s
+    font-size: 14px;
+  }
+
+  @keyframes rotate {
+    0% { transform: 
