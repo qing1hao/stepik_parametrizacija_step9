@@ -313,4 +313,9 @@ function css(duration: number) {
   }
 
   .loading-visual {
-    display: n
+    display: none;
+  }
+
+  #goToBlock {
+    left: 50%;
+    tra
