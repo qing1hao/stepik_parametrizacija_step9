@@ -319,4 +319,6 @@ function css(duration: number) {
   #goToBlock {
     left: 50%;
     transform: translate(-50%, -50%);
-    padding
+    padding: 0 2vw;
+    aspect-ratio: 9 / 16;
+    height
