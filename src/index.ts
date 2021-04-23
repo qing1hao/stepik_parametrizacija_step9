@@ -318,4 +318,5 @@ function css(duration: number) {
 
   #goToBlock {
     left: 50%;
-    tra
+    transform: translate(-50%, -50%);
+    padding
