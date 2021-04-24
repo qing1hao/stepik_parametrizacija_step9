@@ -324,4 +324,6 @@ function css(duration: number) {
     height: min(var(--magic-h), var(--magic-w) * 16/9);
     position: absolute;
     top: 50%;
-    z
+    z-index: 1;
+    pointer-events: none;
+    box-sizing: border-
