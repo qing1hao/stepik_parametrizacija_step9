@@ -321,4 +321,4 @@ function css(duration: number) {
     transform: translate(-50%, -50%);
     padding: 0 2vw;
     aspect-ratio: 9 / 16;
-    height
+    height: min(var(--magic-h), var(--magic-w) * 
