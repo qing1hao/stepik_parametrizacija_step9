@@ -330,4 +330,7 @@ function css(duration: number) {
   }
 
   #back, #forward {
-    pointer-ev
+    pointer-events: all;
+    position: absolute;
+    z-index: 1;
+  
