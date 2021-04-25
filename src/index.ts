@@ -333,4 +333,6 @@ function css(duration: number) {
     pointer-events: all;
     position: absolute;
     z-index: 1;
-  
+    min-width: 40px;
+    height: calc(100% - 100px);
+    botto
