@@ -326,4 +326,8 @@ function css(duration: number) {
     top: 50%;
     z-index: 1;
     pointer-events: none;
-    box-sizing: border-
+    box-sizing: border-box;
+  }
+
+  #back, #forward {
+    pointer-ev
