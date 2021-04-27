@@ -335,4 +335,6 @@ function css(duration: number) {
     z-index: 1;
     min-width: 40px;
     height: calc(100% - 100px);
-    botto
+    bottom: 50px;
+    padding: 0;
+    font-
