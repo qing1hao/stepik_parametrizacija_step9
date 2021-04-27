@@ -339,4 +339,8 @@ function css(duration: number) {
     padding: 0;
     font-size: 3vh;
     width: 12vh;
-    font-family: sys
+    font-family: system-ui, sans-serif;
+    color: #fff;
+  }
+
+  #back {
