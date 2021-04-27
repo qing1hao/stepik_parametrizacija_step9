@@ -337,4 +337,6 @@ function css(duration: number) {
     height: calc(100% - 100px);
     bottom: 50px;
     padding: 0;
-    font-
+    font-size: 3vh;
+    width: 12vh;
+    font-family: sys
