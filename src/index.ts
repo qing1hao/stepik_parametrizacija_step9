@@ -350,4 +350,7 @@ function css(duration: number) {
 
   #forward {
     right: -1.5em;
-    text
+    text-align: right;
+  }
+
+  @media (max-width: 
