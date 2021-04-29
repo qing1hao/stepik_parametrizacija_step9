@@ -346,4 +346,8 @@ function css(duration: number) {
   #back {
     left: -1.5em;
     text-align: left;
- 
+  }
+
+  #forward {
+    right: -1.5em;
+    text
