@@ -353,4 +353,6 @@ function css(duration: number) {
     text-align: right;
   }
 
-  @media (max-width: 420px), screen and (orientation: portrait) 
+  @media (max-width: 420px), screen and (orientation: portrait) {
+    :host {
+      --magic-h: ca
