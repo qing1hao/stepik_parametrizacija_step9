@@ -361,3 +361,7 @@ function css(duration: number) {
 
     ::backdrop {
       background-color: #000;
+    }
+
+    #side-controls #close {
+      display
