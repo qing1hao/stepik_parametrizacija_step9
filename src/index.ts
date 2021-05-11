@@ -356,4 +356,8 @@ function css(duration: number) {
   @media (max-width: 420px), screen and (orientation: portrait) {
     :host {
       --magic-h: calc(var(--mobileVh) * 97);
-      --magic-w: 10
+      --magic-w: 100vw;
+    }
+
+    ::backdrop {
+      background-color: #000;
