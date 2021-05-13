@@ -369,4 +369,9 @@ function css(duration: number) {
   }
 
   [hidden] {
-    display: none !i
+    display: none !important;
+  }
+`
+}
+
+class OpenStoriesElement exten
