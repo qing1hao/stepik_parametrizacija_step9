@@ -364,4 +364,9 @@ function css(duration: number) {
     }
 
     #side-controls #close {
-      display
+      display: inline-flex;
+    }
+  }
+
+  [hidden] {
+    display: none !i
