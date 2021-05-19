@@ -374,4 +374,6 @@ function css(duration: number) {
 `
 }
 
-class OpenStoriesElement exten
+class OpenStoriesElement extends HTMLElement {
+  root: ShadowRoot
+  dialog: HTMLDialog
