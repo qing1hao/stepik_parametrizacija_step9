@@ -378,4 +378,6 @@ class OpenStoriesElement extends HTMLElement {
   root: ShadowRoot
   dialog: HTMLDialogElement
   button: HTMLButtonElement
-  close: HT
+  close: HTMLButtonElement
+  time: HTMLElement
+  metadataDetails: 
