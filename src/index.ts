@@ -376,4 +376,6 @@ function css(duration: number) {
 
 class OpenStoriesElement extends HTMLElement {
   root: ShadowRoot
-  dialog: HTMLDialog
+  dialog: HTMLDialogElement
+  button: HTMLButtonElement
+  close: HT
