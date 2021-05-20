@@ -383,4 +383,5 @@ class OpenStoriesElement extends HTMLElement {
   metadataDetails: HTMLElement
   moreMetadata: HTMLButtonElement
   meta: HTMLElement
-  openHeart: HTMLBut
+  openHeart: HTMLButtonElement
+  themeColor: HTMLMetaElement | null = nu
