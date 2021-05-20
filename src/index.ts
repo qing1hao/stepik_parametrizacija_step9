@@ -382,4 +382,5 @@ class OpenStoriesElement extends HTMLElement {
   time: HTMLElement
   metadataDetails: HTMLElement
   moreMetadata: HTMLButtonElement
-  meta
+  meta: HTMLElement
+  openHeart: HTMLBut
