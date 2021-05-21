@@ -384,4 +384,6 @@ class OpenStoriesElement extends HTMLElement {
   moreMetadata: HTMLButtonElement
   meta: HTMLElement
   openHeart: HTMLButtonElement
-  themeColor: HTMLMetaElement | null = nu
+  themeColor: HTMLMetaElement | null = null
+  link: HTMLAnchorElement
+  currentIndex: num
