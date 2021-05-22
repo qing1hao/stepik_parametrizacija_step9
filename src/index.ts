@@ -390,4 +390,5 @@ class OpenStoriesElement extends HTMLElement {
   count = 0
   timer: number | null = null
   currentBar: HTMLElement | null = null
-  current
+  currentImage: HTMLElement | null = null
+  im
