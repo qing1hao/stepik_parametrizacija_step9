@@ -388,4 +388,6 @@ class OpenStoriesElement extends HTMLElement {
   link: HTMLAnchorElement
   currentIndex: number = -1
   count = 0
-  timer: number | null
+  timer: number | null = null
+  currentBar: HTMLElement | null = null
+  current
