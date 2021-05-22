@@ -386,4 +386,6 @@ class OpenStoriesElement extends HTMLElement {
   openHeart: HTMLButtonElement
   themeColor: HTMLMetaElement | null = null
   link: HTMLAnchorElement
-  currentIndex: num
+  currentIndex: number = -1
+  count = 0
+  timer: number | null
