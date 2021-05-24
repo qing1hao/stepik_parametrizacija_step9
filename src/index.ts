@@ -394,3 +394,5 @@ class OpenStoriesElement extends HTMLElement {
   images: HTMLElement[] = []
   bars: HTMLElement[] = []
   promises: Promise<unknown>[] = []
+  paused: boolean = false
+  open: boolean = false
