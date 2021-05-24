@@ -392,4 +392,5 @@ class OpenStoriesElement extends HTMLElement {
   currentBar: HTMLElement | null = null
   currentImage: HTMLElement | null = null
   images: HTMLElement[] = []
-  bars: HTMLElem
+  bars: HTMLElement[] = []
+  promises: Promise<unknown>[] = []
