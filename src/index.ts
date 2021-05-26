@@ -397,4 +397,6 @@ class OpenStoriesElement extends HTMLElement {
   paused: boolean = false
   open: boolean = false
   goToBinding: () => void
-  items: OpenStoriesF
+  items: OpenStoriesFeed["items"] = []
+
+  constructor
