@@ -396,3 +396,5 @@ class OpenStoriesElement extends HTMLElement {
   promises: Promise<unknown>[] = []
   paused: boolean = false
   open: boolean = false
+  goToBinding: () => void
+  items: OpenStoriesF
