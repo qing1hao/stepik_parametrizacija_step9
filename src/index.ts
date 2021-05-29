@@ -399,4 +399,6 @@ class OpenStoriesElement extends HTMLElement {
   goToBinding: () => void
   items: OpenStoriesFeed["items"] = []
 
-  constructor
+  constructor() {
+    super()
+    this.root = this.attachShadow(
