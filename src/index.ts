@@ -401,4 +401,6 @@ class OpenStoriesElement extends HTMLElement {
 
   constructor() {
     super()
-    this.root = this.attachShadow(
+    this.root = this.attachShadow({mode: 'open'})
+    this.root.innerHTML = `
+    
