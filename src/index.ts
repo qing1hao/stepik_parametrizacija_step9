@@ -403,4 +403,4 @@ class OpenStoriesElement extends HTMLElement {
     super()
     this.root = this.attachShadow({mode: 'open'})
     this.root.innerHTML = `
-    
+      <button type="dialog" id="trigger" part="button"><sl
