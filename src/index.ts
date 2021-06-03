@@ -404,4 +404,5 @@ class OpenStoriesElement extends HTMLElement {
     this.root = this.attachShadow({mode: 'open'})
     this.root.innerHTML = `
       <button type="dialog" id="trigger" part="button"><slot>View stories</slot></button>
-      <dialog 
+      <dialog class="is-loading" part="dialog">
+       
