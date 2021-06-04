@@ -405,4 +405,6 @@ class OpenStoriesElement extends HTMLElement {
     this.root.innerHTML = `
       <button type="dialog" id="trigger" part="button"><slot>View stories</slot></button>
       <dialog class="is-loading" part="dialog">
-        <div class="loading-visual" part="loading-visu
+        <div class="loading-visual" part="loading-visual"></div>
+        <div id="bars"></div>
+     
