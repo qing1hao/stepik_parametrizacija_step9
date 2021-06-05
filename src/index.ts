@@ -408,4 +408,6 @@ class OpenStoriesElement extends HTMLElement {
         <div class="loading-visual" part="loading-visual"></div>
         <div id="bars"></div>
         <span id="time"></span>
-        <div id="goToBloc
+        <div id="goToBlock">
+          <button id="back">←</button>
+ 
