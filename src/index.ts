@@ -407,4 +407,5 @@ class OpenStoriesElement extends HTMLElement {
       <dialog class="is-loading" part="dialog">
         <div class="loading-visual" part="loading-visual"></div>
         <div id="bars"></div>
-     
+        <span id="time"></span>
+        <div id="goToBloc
