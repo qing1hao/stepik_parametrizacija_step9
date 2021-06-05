@@ -410,4 +410,4 @@ class OpenStoriesElement extends HTMLElement {
         <span id="time"></span>
         <div id="goToBlock">
           <button id="back">←</button>
- 
+          <button id="forward">→</butto
