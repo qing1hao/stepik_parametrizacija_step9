@@ -412,4 +412,6 @@ class OpenStoriesElement extends HTMLElement {
           <button id="back">←</button>
           <button id="forward">→</button>
         </div>
-        <div id=
+        <div id="images"></div>
+        <div id="bottom-controls">
+     
