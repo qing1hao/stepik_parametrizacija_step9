@@ -415,4 +415,5 @@ class OpenStoriesElement extends HTMLElement {
         <div id="images"></div>
         <div id="bottom-controls">
           <div id="metadata-details">
-            <div id="me
+            <div id="metadata" part="metadata-content"></div>
+        
