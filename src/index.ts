@@ -416,4 +416,4 @@ class OpenStoriesElement extends HTMLElement {
         <div id="bottom-controls">
           <div id="metadata-details">
             <div id="metadata" part="metadata-content"></div>
-        
+            <button type="button" id="more" part="metadata-su
