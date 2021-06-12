@@ -421,4 +421,5 @@ class OpenStoriesElement extends HTMLElement {
             </button>
           </div>
           <div id="side-controls">
-            <button id="close" class="action"
+            <button id="close" class="action" type="button" aria-label="Close">
+      
