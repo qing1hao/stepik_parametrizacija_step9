@@ -424,4 +424,4 @@ class OpenStoriesElement extends HTMLElement {
             <button id="close" class="action" type="button" aria-label="Close">
               <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <rect x="6" y="7.35723" width="1.91942" height="10.1014" rx="0.95971" transform="rotate(-45 6 7.35723)" fill="white"/>
-                <rect x="7.35724" y="14.5" width="1.91942" height="10.1014" 
+                <rect x="7.35724" y="14.5" width="1.91942" height="10.1014" rx="0.95971" transform="rotate(-135 7.35724 14.
