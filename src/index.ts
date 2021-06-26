@@ -427,4 +427,5 @@ class OpenStoriesElement extends HTMLElement {
                 <rect x="7.35724" y="14.5" width="1.91942" height="10.1014" rx="0.95971" transform="rotate(-135 7.35724 14.5)" fill="white"/>
               </svg>
             </button>
-            <button id="play-pause" class="action" type="button" aria-label="Play/Pause" aria-pr
+            <button id="play-pause" class="action" type="button" aria-label="Play/Pause" aria-pressed="true">
+              <svg width="20" height="20"
