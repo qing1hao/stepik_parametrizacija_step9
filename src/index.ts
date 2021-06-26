@@ -428,4 +428,5 @@ class OpenStoriesElement extends HTMLElement {
               </svg>
             </button>
             <button id="play-pause" class="action" type="button" aria-label="Play/Pause" aria-pressed="true">
-              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" id="play">
+                <path d="M7 13.0568V6.9
