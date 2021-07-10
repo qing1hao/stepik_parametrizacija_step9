@@ -433,4 +433,4 @@ class OpenStoriesElement extends HTMLElement {
               </svg>
               <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" id="pause">
                 <rect x="7" y="6" width="2" height="8" rx="1" fill="white"/>
-                <path d="M11 7C11 6.44772 11.4477 6 12 6V6C12.5523 6 
+                <path d="M11 7C11 6.44772 11.4477 6 12 6V6C12.5523 6 13 6.44772 13 7V13C13 13.5523 12.5523 14 12 14V14
