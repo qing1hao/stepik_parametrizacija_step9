@@ -436,4 +436,4 @@ class OpenStoriesElement extends HTMLElement {
                 <path d="M11 7C11 6.44772 11.4477 6 12 6V6C12.5523 6 13 6.44772 13 7V13C13 13.5523 12.5523 14 12 14V14C11.4477 14 11 13.5523 11 13V7Z" fill="white"/>
               </svg>
             </button>
-            <a href 
+            <a href id="link" class="action" aria-label="
