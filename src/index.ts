@@ -437,4 +437,4 @@ class OpenStoriesElement extends HTMLElement {
               </svg>
             </button>
             <a href id="link" class="action" aria-label="Story (copy link)">
-              <svg wid
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" 
