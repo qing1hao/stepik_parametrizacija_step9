@@ -442,4 +442,5 @@ class OpenStoriesElement extends HTMLElement {
               </svg>
             </a>
             <button type="button" class="action" id="open-heart" part="open-heart" part="open-heart" hidden>
-              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/s
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" class="on">
+                <path fill-rule="evenod
