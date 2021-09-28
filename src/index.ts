@@ -454,4 +454,4 @@ class OpenStoriesElement extends HTMLElement {
       </dialog>
     `
 
- 
+    this.dialog = this.root.querySelector('dialog')
