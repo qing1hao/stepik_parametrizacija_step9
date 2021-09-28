@@ -458,4 +458,4 @@ class OpenStoriesElement extends HTMLElement {
     this.button = this.root.querySelector('button#trigger')!
     this.close = this.root.querySelector('button#close')!
     this.openHeart = this.root.querySelector('button#open-heart')!
-    this.metadataDet
+    this.metadataDetails = this.root.querySelector('#metadata-deta
