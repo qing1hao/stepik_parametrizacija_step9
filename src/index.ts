@@ -455,4 +455,5 @@ class OpenStoriesElement extends HTMLElement {
     `
 
     this.dialog = this.root.querySelector('dialog')!
-    this.button = this.root.querySelec
+    this.button = this.root.querySelector('button#trigger')!
+    this.close 
