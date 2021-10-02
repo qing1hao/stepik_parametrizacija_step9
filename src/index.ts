@@ -466,4 +466,6 @@ class OpenStoriesElement extends HTMLElement {
     this.goToBinding = this.goTo.bind(this, 1)
   }
 
-  get isHig
+  get isHighlight() {
+    return this.hasAttribute('is-highlight')
+  
