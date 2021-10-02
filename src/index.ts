@@ -463,4 +463,7 @@ class OpenStoriesElement extends HTMLElement {
     this.moreMetadata = this.root.querySelector('#more')!
     this.link = this.root.querySelector('a#link')!
     this.time = this.root.querySelector('#time')!
-    this
+    this.goToBinding = this.goTo.bind(this, 1)
+  }
+
+  get isHig
