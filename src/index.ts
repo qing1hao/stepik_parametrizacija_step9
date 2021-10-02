@@ -462,4 +462,5 @@ class OpenStoriesElement extends HTMLElement {
     this.meta = this.root.querySelector('#metadata')!
     this.moreMetadata = this.root.querySelector('#more')!
     this.link = this.root.querySelector('a#link')!
-    this.time = this
+    this.time = this.root.querySelector('#time')!
+    this
