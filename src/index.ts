@@ -468,4 +468,7 @@ class OpenStoriesElement extends HTMLElement {
 
   get isHighlight() {
     return this.hasAttribute('is-highlight')
-  
+  }
+
+  setThemeColor(force: boolean) {
+    if (force && !th
