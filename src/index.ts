@@ -473,4 +473,7 @@ class OpenStoriesElement extends HTMLElement {
   setThemeColor(force: boolean) {
     if (force && !this.themeColor) {
       this.themeColor = document.createElement('meta')
-      this.themeColor.name = 'theme-
+      this.themeColor.name = 'theme-color'
+      this.themeColor.content = '#000'
+
+      doc
