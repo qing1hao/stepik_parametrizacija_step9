@@ -479,4 +479,6 @@ class OpenStoriesElement extends HTMLElement {
       document.body.append(this.themeColor)
     }
 
-    if (!fo
+    if (!force && this.themeColor) {
+      this.themeColor.remove()
+ 
