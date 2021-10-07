@@ -476,4 +476,7 @@ class OpenStoriesElement extends HTMLElement {
       this.themeColor.name = 'theme-color'
       this.themeColor.content = '#000'
 
-      doc
+      document.body.append(this.themeColor)
+    }
+
+    if (!fo
