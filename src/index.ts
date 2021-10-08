@@ -481,4 +481,8 @@ class OpenStoriesElement extends HTMLElement {
 
     if (!force && this.themeColor) {
       this.themeColor.remove()
- 
+      this.themeColor = null
+    }
+  }
+
+  connectedCallba
