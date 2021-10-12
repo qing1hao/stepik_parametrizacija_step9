@@ -485,4 +485,5 @@ class OpenStoriesElement extends HTMLElement {
     }
   }
 
-  connectedCallba
+  connectedCallback() {
+    this.button.addEventListener('click', () =
