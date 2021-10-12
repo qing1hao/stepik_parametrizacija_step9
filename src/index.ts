@@ -487,4 +487,5 @@ class OpenStoriesElement extends HTMLElement {
 
   connectedCallback() {
     this.button.addEventListener('click', () => {
-      this.dialog.open ? this.dialog.close() 
+      this.dialog.open ? this.dialog.close() : this.dialog.showModal()
+      this.open = th
