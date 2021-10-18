@@ -489,4 +489,6 @@ class OpenStoriesElement extends HTMLElement {
     this.button.addEventListener('click', () => {
       this.dialog.open ? this.dialog.close() : this.dialog.showModal()
       this.open = this.dialog.open
-      if (!this.dialog.open) retu
+      if (!this.dialog.open) return
+      this.dialog.tabIndex = -1
+      this
