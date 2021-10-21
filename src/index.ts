@@ -491,4 +491,6 @@ class OpenStoriesElement extends HTMLElement {
       this.open = this.dialog.open
       if (!this.dialog.open) return
       this.dialog.tabIndex = -1
-      this
+      this.dialog.focus()
+      this.startTimer()
+      this.setThemeCol
