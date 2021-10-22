@@ -496,4 +496,8 @@ class OpenStoriesElement extends HTMLElement {
       this.setThemeColor(true)
     })
 
-    this.close.addEventListener('click
+    this.close.addEventListener('click', () => {
+      this.button.click()
+    })
+
+    
