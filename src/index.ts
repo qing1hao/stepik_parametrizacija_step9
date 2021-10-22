@@ -493,4 +493,7 @@ class OpenStoriesElement extends HTMLElement {
       this.dialog.tabIndex = -1
       this.dialog.focus()
       this.startTimer()
-      this.setThemeCol
+      this.setThemeColor(true)
+    })
+
+    this.close.addEventListener('click
