@@ -501,4 +501,5 @@ class OpenStoriesElement extends HTMLElement {
     })
 
     // Backdrop click to close
-    this.dialo
+    this.dialog.addEventListener('click', (event) => {
+      if
