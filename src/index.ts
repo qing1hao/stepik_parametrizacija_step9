@@ -509,4 +509,5 @@ class OpenStoriesElement extends HTMLElement {
     const src = this.getAttribute('src')
     if (src) this.fetchData(src)
 
-    const st
+    const style = document.createElement('style')
+    style.innerText = css(this.dur
