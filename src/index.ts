@@ -500,4 +500,5 @@ class OpenStoriesElement extends HTMLElement {
       this.button.click()
     })
 
-    
+    // Backdrop click to close
+    this.dialo
