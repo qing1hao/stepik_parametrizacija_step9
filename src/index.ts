@@ -506,4 +506,4 @@ class OpenStoriesElement extends HTMLElement {
       this.button.click()
     })
 
-  
+    const src = this.getAttribute('src'
