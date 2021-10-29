@@ -510,4 +510,7 @@ class OpenStoriesElement extends HTMLElement {
     if (src) this.fetchData(src)
 
     const style = document.createElement('style')
-    style.innerText = css(this.dur
+    style.innerText = css(this.duration)
+    this.root.append(style)
+
+    this.style.se
