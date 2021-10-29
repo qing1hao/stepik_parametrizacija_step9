@@ -513,4 +513,6 @@ class OpenStoriesElement extends HTMLElement {
     style.innerText = css(this.duration)
     this.root.append(style)
 
-    this.style.setProperty('--mobileVh', `${window.innerHeight * 
+    this.style.setProperty('--mobileVh', `${window.innerHeight * 0.01}px`)
+
+    this.moreMetadata.addEventLis
