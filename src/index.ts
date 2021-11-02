@@ -515,4 +515,5 @@ class OpenStoriesElement extends HTMLElement {
 
     this.style.setProperty('--mobileVh', `${window.innerHeight * 0.01}px`)
 
-    this.moreMetadata.addEventLis
+    this.moreMetadata.addEventListener('click', () => {
+      this.metadataDetails
