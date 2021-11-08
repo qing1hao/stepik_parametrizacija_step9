@@ -517,4 +517,8 @@ class OpenStoriesElement extends HTMLElement {
 
     this.moreMetadata.addEventListener('click', () => {
       this.metadataDetails.classList.add('is-expanded')
-      this.metadataDetail
+      this.metadataDetails.classList.remove('is-collapsed')
+    })
+  }
+
+  
