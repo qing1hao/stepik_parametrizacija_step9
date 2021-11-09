@@ -522,4 +522,4 @@ class OpenStoriesElement extends HTMLElement {
   }
 
   get src() {
-    return this.hasAttribute('src') ? new URL
+    return this.hasAttribute('src') ? new URL(this.getAttribute('src') || '', locat
