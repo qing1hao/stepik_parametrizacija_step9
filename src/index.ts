@@ -531,4 +531,7 @@ class OpenStoriesElement extends HTMLElement {
 
   async sendHeart() {
     const item = this.items[this.currentIndex]
-    const urls = this.items[this.currentIndex]._open_stories.reactions?.open_heart_
+    const urls = this.items[this.currentIndex]._open_stories.reactions?.open_heart_urls || []
+    if (urls.length === 0) return
+
+    
