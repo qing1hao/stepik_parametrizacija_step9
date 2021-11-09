@@ -526,4 +526,8 @@ class OpenStoriesElement extends HTMLElement {
   }
 
   get duration() {
-    return this.hasAttribute('duration') ? Number(this.getAttribute('du
+    return this.hasAttribute('duration') ? Number(this.getAttribute('duration')) : 5
+  }
+
+  async sendHeart() {
+   
