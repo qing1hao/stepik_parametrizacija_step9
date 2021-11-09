@@ -534,4 +534,6 @@ class OpenStoriesElement extends HTMLElement {
     const urls = this.items[this.currentIndex]._open_stories.reactions?.open_heart_urls || []
     if (urls.length === 0) return
 
-    
+    const key = `♥︎@${item.id}`
+    const promises = []
+    f
