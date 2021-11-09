@@ -526,4 +526,4 @@ class OpenStoriesElement extends HTMLElement {
   }
 
   get duration() {
-    return this.has
+    return this.hasAttribute('duration') ? Number(this.getAttribute('du
