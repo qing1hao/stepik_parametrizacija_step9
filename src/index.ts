@@ -530,4 +530,4 @@ class OpenStoriesElement extends HTMLElement {
   }
 
   async sendHeart() {
-   
+    const item = this.items[this.currentInde
