@@ -536,4 +536,5 @@ class OpenStoriesElement extends HTMLElement {
 
     const key = `♥︎@${item.id}`
     const promises = []
-    f
+    for (const url of urls) {
+      promises.push(fetch(url, {
