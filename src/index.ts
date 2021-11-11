@@ -537,4 +537,7 @@ class OpenStoriesElement extends HTMLElement {
     const key = `♥︎@${item.id}`
     const promises = []
     for (const url of urls) {
-      promises.push(fetch(url, {
+      promises.push(fetch(url, {method: 'post', body: '❤️'}))
+    }
+
+    this.openHeart.s
