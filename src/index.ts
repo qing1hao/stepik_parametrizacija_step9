@@ -540,4 +540,5 @@ class OpenStoriesElement extends HTMLElement {
       promises.push(fetch(url, {method: 'post', body: '❤️'}))
     }
 
-    this.openHeart.s
+    this.openHeart.setAttribute('aria-busy', 'true')
+    let response: R
