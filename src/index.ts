@@ -546,4 +546,6 @@ class OpenStoriesElement extends HTMLElement {
     try {
       response = await Promise.any(promises)
     } catch { 
-     
+      // noop
+    } finally {
+      this.openHea
