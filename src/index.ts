@@ -544,4 +544,6 @@ class OpenStoriesElement extends HTMLElement {
     let response: Response | null = null
 
     try {
-      response = await 
+      response = await Promise.any(promises)
+    } catch { 
+     
