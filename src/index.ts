@@ -549,4 +549,7 @@ class OpenStoriesElement extends HTMLElement {
       // noop
     } finally {
       this.openHeart.setAttribute('aria-busy', 'false')
-      if 
+      if (!response) return
+    }
+
+    const keys = (localSto
