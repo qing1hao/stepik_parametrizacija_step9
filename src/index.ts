@@ -541,4 +541,7 @@ class OpenStoriesElement extends HTMLElement {
     }
 
     this.openHeart.setAttribute('aria-busy', 'true')
-    let response: R
+    let response: Response | null = null
+
+    try {
+      response = await 
