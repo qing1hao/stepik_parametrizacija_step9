@@ -548,4 +548,5 @@ class OpenStoriesElement extends HTMLElement {
     } catch { 
       // noop
     } finally {
-      this.openHea
+      this.openHeart.setAttribute('aria-busy', 'false')
+      if 
