@@ -554,4 +554,5 @@ class OpenStoriesElement extends HTMLElement {
 
     const keys = (localStorage.getItem('_open_heart') || '').split(',').filter(s => s)
     keys.push(key)
-    localStorage
+    localStorage.setItem('_open_heart' ,keys.join(','))
+    thi
