@@ -559,4 +559,5 @@ class OpenStoriesElement extends HTMLElement {
   }
 
   bindEvents() {
-    const images = 
+    const images = this.root.querySelector('#images')!
+    const playPau
