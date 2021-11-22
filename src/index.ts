@@ -560,4 +560,4 @@ class OpenStoriesElement extends HTMLElement {
 
   bindEvents() {
     const images = this.root.querySelector('#images')!
-    const playPau
+    const playPause = this.root.querySelector<HTMLElement>('#play-pause')
