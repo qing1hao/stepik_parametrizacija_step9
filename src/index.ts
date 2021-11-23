@@ -562,4 +562,4 @@ class OpenStoriesElement extends HTMLElement {
     const images = this.root.querySelector('#images')!
     const playPause = this.root.querySelector<HTMLElement>('#play-pause')!
     const back = this.root.querySelector<HTMLElement>('button#back')!
-    const forward = t
+    const forward = this.root.querySelector<HTMLElement>('button#for
