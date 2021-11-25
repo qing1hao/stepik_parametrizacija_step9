@@ -569,4 +569,5 @@ class OpenStoriesElement extends HTMLElement {
     })
 
     this.link.addEventListener('click', async () => {
-      await nav
+      await navigator.clipboard.writeText(this.link.href)
+    
