@@ -565,3 +565,7 @@ class OpenStoriesElement extends HTMLElement {
     const forward = this.root.querySelector<HTMLElement>('button#forward')!
 
     this.openHeart.addEventListener('click', () => {
+      this.sendHeart()
+    })
+
+    this.
