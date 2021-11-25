@@ -568,4 +568,5 @@ class OpenStoriesElement extends HTMLElement {
       this.sendHeart()
     })
 
-    this.
+    this.link.addEventListener('click', async () => {
+      await nav
