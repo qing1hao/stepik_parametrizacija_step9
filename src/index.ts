@@ -574,4 +574,6 @@ class OpenStoriesElement extends HTMLElement {
 
     back.addEventListener('click', () => {
       if (this.currentIndex === 0) {
-        t
+        this.dialog.close()
+      } else {
+        this.goTo(-
