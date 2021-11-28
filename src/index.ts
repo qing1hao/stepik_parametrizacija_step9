@@ -576,4 +576,8 @@ class OpenStoriesElement extends HTMLElement {
       if (this.currentIndex === 0) {
         this.dialog.close()
       } else {
-        this.goTo(-
+        this.goTo(-1)
+      }
+    })
+
+    forward.addEventListener('cli
