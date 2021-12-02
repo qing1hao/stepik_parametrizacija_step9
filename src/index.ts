@@ -580,4 +580,5 @@ class OpenStoriesElement extends HTMLElement {
       }
     })
 
-    forward.addEventListener('cli
+    forward.addEventListener('click', () => {
+      if (this.currentIndex === this.count - 1) {
