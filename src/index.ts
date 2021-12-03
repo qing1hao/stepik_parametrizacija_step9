@@ -582,3 +582,6 @@ class OpenStoriesElement extends HTMLElement {
 
     forward.addEventListener('click', () => {
       if (this.currentIndex === this.count - 1) {
+        this.dialog.close()
+      } else {
+  
