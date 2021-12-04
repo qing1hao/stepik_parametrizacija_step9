@@ -584,4 +584,8 @@ class OpenStoriesElement extends HTMLElement {
       if (this.currentIndex === this.count - 1) {
         this.dialog.close()
       } else {
-  
+        this.goTo(1)
+      }
+    })
+
+    this.dia
