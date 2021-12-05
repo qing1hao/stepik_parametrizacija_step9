@@ -588,4 +588,5 @@ class OpenStoriesElement extends HTMLElement {
       }
     })
 
-    this.dia
+    this.dialog.addEventListener('close', () => {
+      if 
