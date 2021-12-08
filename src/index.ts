@@ -589,4 +589,5 @@ class OpenStoriesElement extends HTMLElement {
     })
 
     this.dialog.addEventListener('close', () => {
-      if 
+      if (this.paused) this.resume()
+      if (this
