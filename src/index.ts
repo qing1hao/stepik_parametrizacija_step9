@@ -598,4 +598,5 @@ class OpenStoriesElement extends HTMLElement {
       if (this.itemByHash()) window.location.hash = ''
     })
 
-    playPa
+    playPause.addEventListener('click', () => {
+     
