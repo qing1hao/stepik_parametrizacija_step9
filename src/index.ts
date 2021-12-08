@@ -591,4 +591,4 @@ class OpenStoriesElement extends HTMLElement {
     this.dialog.addEventListener('close', () => {
       if (this.paused) this.resume()
       if (this.timer) clearTimeout(this.timer)
-      i
+      if (this.currentIndex >= this.items.length - 1) this.
