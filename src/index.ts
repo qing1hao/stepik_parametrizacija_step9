@@ -593,4 +593,6 @@ class OpenStoriesElement extends HTMLElement {
       if (this.timer) clearTimeout(this.timer)
       if (this.currentIndex >= this.items.length - 1) this.currentIndex = -1
       this.checkIfAllRead()
-   
+      this.setThemeColor(false)
+
+      if (this.itemByHash()
