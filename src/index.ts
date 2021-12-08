@@ -595,4 +595,7 @@ class OpenStoriesElement extends HTMLElement {
       this.checkIfAllRead()
       this.setThemeColor(false)
 
-      if (this.itemByHash()
+      if (this.itemByHash()) window.location.hash = ''
+    })
+
+    playPa
