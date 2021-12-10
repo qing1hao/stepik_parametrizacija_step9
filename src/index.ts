@@ -599,4 +599,4 @@ class OpenStoriesElement extends HTMLElement {
     })
 
     playPause.addEventListener('click', () => {
-     
+      playPause.setAttribute('aria-pressed', this
