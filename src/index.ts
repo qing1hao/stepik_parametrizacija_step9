@@ -605,4 +605,8 @@ class OpenStoriesElement extends HTMLElement {
 
     images.addEventListener('click', () => {
       playPause.click()
-   
+    })
+
+    const dialog = this.dialog
+
+    document.add
