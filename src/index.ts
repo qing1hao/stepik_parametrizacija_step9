@@ -603,4 +603,6 @@ class OpenStoriesElement extends HTMLElement {
       this.paused ? this.resume() : this.pause()
     })
 
-    images.addEventListener('cl
+    images.addEventListener('click', () => {
+      playPause.click()
+   
