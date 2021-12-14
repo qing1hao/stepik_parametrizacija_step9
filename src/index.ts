@@ -609,4 +609,4 @@ class OpenStoriesElement extends HTMLElement {
 
     const dialog = this.dialog
 
-    document.add
+    document.addEventListener('keydown', keyboradShortcut.bind(this)
