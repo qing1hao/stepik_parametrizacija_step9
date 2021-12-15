@@ -621,3 +621,7 @@ class OpenStoriesElement extends HTMLElement {
     const hash = (location.hash || '').slice(1)
     if (hash.length === 0) return
     
+    return this.items.find((item) => item.id === hash)
+  }
+
+  
