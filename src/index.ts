@@ -614,3 +614,7 @@ class OpenStoriesElement extends HTMLElement {
       if (!dialog.open) return
       if (event.key === 'ArrowRight') forward.click()
       if (event.key === 'ArrowLeft') back.click()
+    }
+  }
+
+  itemByHash(): OpenStoriesFeed["items"][0] |
