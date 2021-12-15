@@ -624,4 +624,5 @@ class OpenStoriesElement extends HTMLElement {
     return this.items.find((item) => item.id === hash)
   }
 
-  
+  checkHashId(): boolean {
+    // Prevent opening multipl
