@@ -617,4 +617,5 @@ class OpenStoriesElement extends HTMLElement {
     }
   }
 
-  itemByHash(): OpenStoriesFeed["items"][0] |
+  itemByHash(): OpenStoriesFeed["items"][0] | undefined {
+    const hash = (location.hash || '').sli
