@@ -611,4 +611,5 @@ class OpenStoriesElement extends HTMLElement {
 
     document.addEventListener('keydown', keyboradShortcut.bind(this))
     function keyboradShortcut(event: KeyboardEvent) {
- 
+      if (!dialog.open) return
+      if (ev
