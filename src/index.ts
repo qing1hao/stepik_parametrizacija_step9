@@ -618,4 +618,6 @@ class OpenStoriesElement extends HTMLElement {
   }
 
   itemByHash(): OpenStoriesFeed["items"][0] | undefined {
-    const hash = (location.hash || '').sli
+    const hash = (location.hash || '').slice(1)
+    if (hash.length === 0) return
+    
