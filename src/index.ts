@@ -613,4 +613,4 @@ class OpenStoriesElement extends HTMLElement {
     function keyboradShortcut(event: KeyboardEvent) {
       if (!dialog.open) return
       if (event.key === 'ArrowRight') forward.click()
-    
+      if (event.key === 'ArrowLeft') back.click()
