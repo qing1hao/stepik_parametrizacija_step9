@@ -631,4 +631,5 @@ class OpenStoriesElement extends HTMLElement {
     const item = this.itemByHash()
     if (!item) return false
     
-    const index = this.items.
+    const index = this.items.indexOf(item)
+    if (this.currentIndex === index) return fal
