@@ -629,4 +629,6 @@ class OpenStoriesElement extends HTMLElement {
     if (Array.from(document.querySelectorAll('open-stories')).find(e => e !== this && e.open)) return false
 
     const item = this.itemByHash()
-    if (!ite
+    if (!item) return false
+    
+    const index = this.items.
