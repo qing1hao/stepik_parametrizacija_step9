@@ -625,4 +625,5 @@ class OpenStoriesElement extends HTMLElement {
   }
 
   checkHashId(): boolean {
-    // Prevent opening multipl
+    // Prevent opening multiple viewer sharing the same feed on the page
+    if (A
