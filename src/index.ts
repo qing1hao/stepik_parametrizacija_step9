@@ -632,4 +632,8 @@ class OpenStoriesElement extends HTMLElement {
     if (!item) return false
     
     const index = this.items.indexOf(item)
-    if (this.currentIndex === index) return fal
+    if (this.currentIndex === index) return false
+
+    this.currentIndex = index - 1
+
+    if (!this.di
