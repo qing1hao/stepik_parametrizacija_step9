@@ -626,4 +626,4 @@ class OpenStoriesElement extends HTMLElement {
 
   checkHashId(): boolean {
     // Prevent opening multiple viewer sharing the same feed on the page
-    if (Array.from(document.querySelectorAll('open-sto
+    if (Array.from(document.querySelectorAll('open-stories')).find(e => e !== this && e.open)) retur
