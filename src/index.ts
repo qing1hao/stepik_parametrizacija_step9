@@ -636,4 +636,7 @@ class OpenStoriesElement extends HTMLElement {
 
     this.currentIndex = index - 1
 
-    if (!this.di
+    if (!this.dialog.open) {
+      this.button.click()
+    } else {
+     
