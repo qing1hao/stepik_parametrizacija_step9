@@ -639,4 +639,8 @@ class OpenStoriesElement extends HTMLElement {
     if (!this.dialog.open) {
       this.button.click()
     } else {
-     
+      this.goTo(1)
+    }
+
+    return true
+  }
