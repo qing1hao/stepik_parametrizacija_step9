@@ -646,4 +646,6 @@ class OpenStoriesElement extends HTMLElement {
   }
 
   checkIfAllRead() {
-    if (this.isHighli
+    if (this.isHighlight) return false
+
+    const lastItem = this.items[thi
