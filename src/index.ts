@@ -644,3 +644,6 @@ class OpenStoriesElement extends HTMLElement {
 
     return true
   }
+
+  checkIfAllRead() {
+    if (this.isHighli
