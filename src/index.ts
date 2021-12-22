@@ -650,3 +650,4 @@ class OpenStoriesElement extends HTMLElement {
 
     const lastItem = this.items[this.items.length - 1]
     const id = this.getViewedId()
+    const allRead = lastItem && lastItem.id =
