@@ -652,3 +652,7 @@ class OpenStoriesElement extends HTMLElement {
     const id = this.getViewedId()
     const allRead = lastItem && lastItem.id === id
     this.classList.toggle('is-read', allRead)
+    return allRead
+  }
+
+  async fetchData(url: st
