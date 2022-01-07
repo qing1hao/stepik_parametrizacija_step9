@@ -655,4 +655,5 @@ class OpenStoriesElement extends HTMLElement {
     return allRead
   }
 
-  async fetchData(url: st
+  async fetchData(url: string) {
+    const json: OpenStoriesFeed = aw
