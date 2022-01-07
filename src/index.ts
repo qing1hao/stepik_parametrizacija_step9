@@ -658,4 +658,6 @@ class OpenStoriesElement extends HTMLElement {
   async fetchData(url: string) {
     const json: OpenStoriesFeed = await (await fetch(url)).json()
 
-    const now = new Date(
+    const now = new Date()
+    this.items = json.items.filter((item) => {
+      ret
