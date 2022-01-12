@@ -663,4 +663,5 @@ class OpenStoriesElement extends HTMLElement {
       return item._open_stories.mime_type.startsWith('image') && (!item._open_stories.date_expired || now <= new Date(item._open_stories.date_expired))
     }).reverse()
 
-    this.classList.toggle('is-empt
+    this.classList.toggle('is-empty', this.items.length === 0)
+    if (this.items.length 
