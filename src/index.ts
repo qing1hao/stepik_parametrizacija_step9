@@ -665,4 +665,8 @@ class OpenStoriesElement extends HTMLElement {
 
     this.classList.toggle('is-empty', this.items.length === 0)
     if (this.items.length === 0) {
-      this.button.disabled
+      this.button.disabled = true
+    } else {
+      this.appendImages()
+    }
+   
