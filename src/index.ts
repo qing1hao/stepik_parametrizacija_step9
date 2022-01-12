@@ -664,4 +664,5 @@ class OpenStoriesElement extends HTMLElement {
     }).reverse()
 
     this.classList.toggle('is-empty', this.items.length === 0)
-    if (this.items.length 
+    if (this.items.length === 0) {
+      this.button.disabled
