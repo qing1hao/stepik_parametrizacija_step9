@@ -660,4 +660,4 @@ class OpenStoriesElement extends HTMLElement {
 
     const now = new Date()
     this.items = json.items.filter((item) => {
-      ret
+      return item._open_stories.mime_type.startsWi
