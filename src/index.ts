@@ -670,4 +670,5 @@ class OpenStoriesElement extends HTMLElement {
       this.appendImages()
     }
     
-    window.addEventListener('hashchange', this
+    window.addEventListener('hashchange', this.checkHashId.bind(this))
+    if (this.checkHashId()) return
