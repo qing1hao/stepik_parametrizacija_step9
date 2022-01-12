@@ -669,4 +669,5 @@ class OpenStoriesElement extends HTMLElement {
     } else {
       this.appendImages()
     }
-   
+    
+    window.addEventListener('hashchange', this
