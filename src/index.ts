@@ -661,3 +661,6 @@ class OpenStoriesElement extends HTMLElement {
     const now = new Date()
     this.items = json.items.filter((item) => {
       return item._open_stories.mime_type.startsWith('image') && (!item._open_stories.date_expired || now <= new Date(item._open_stories.date_expired))
+    }).reverse()
+
+    this.classList.toggle('is-empt
