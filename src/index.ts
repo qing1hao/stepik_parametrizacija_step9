@@ -672,3 +672,8 @@ class OpenStoriesElement extends HTMLElement {
     
     window.addEventListener('hashchange', this.checkHashId.bind(this))
     if (this.checkHashId()) return
+    this.setIndexToUnread()
+  }
+
+  setIndexToUnread() {
+    if (
