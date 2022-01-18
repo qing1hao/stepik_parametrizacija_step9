@@ -676,4 +676,6 @@ class OpenStoriesElement extends HTMLElement {
   }
 
   setIndexToUnread() {
-    if (
+    if (this.isHighlight) return false
+
+    const view
