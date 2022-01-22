@@ -678,4 +678,5 @@ class OpenStoriesElement extends HTMLElement {
   setIndexToUnread() {
     if (this.isHighlight) return false
 
-    const view
+    const viewedId = this.getViewedId()
+    if (!viewedId) 
