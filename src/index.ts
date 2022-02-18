@@ -682,4 +682,5 @@ class OpenStoriesElement extends HTMLElement {
     if (!viewedId) return
 
     const viewedItemIndex = this.items.findIndex(item => item.id === viewedId)
-    if (
+    if (viewedItemIndex < 0) return
+    if (this.checkIf
