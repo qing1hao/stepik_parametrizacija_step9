@@ -685,4 +685,9 @@ class OpenStoriesElement extends HTMLElement {
     if (viewedItemIndex < 0) return
     if (this.checkIfAllRead()) return
 
-    this.currentIndex = view
+    this.currentIndex = viewedItemIndex
+  }
+
+  pause() {
+    this.paused = true
+    this.cla
