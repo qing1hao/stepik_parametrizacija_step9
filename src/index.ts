@@ -690,4 +690,5 @@ class OpenStoriesElement extends HTMLElement {
 
   pause() {
     this.paused = true
-    this.cla
+    this.classList.add('is-paused')
+    this.dialog.c
