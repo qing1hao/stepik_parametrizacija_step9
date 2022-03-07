@@ -698,4 +698,5 @@ class OpenStoriesElement extends HTMLElement {
   resume() {
     this.paused = false
     this.classList.remove('is-paused')
-    this.dialog.classList.re
+    this.dialog.classList.remove('is-paused')
+    this.currentBar?.querySelect
