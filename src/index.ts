@@ -692,4 +692,7 @@ class OpenStoriesElement extends HTMLElement {
     this.paused = true
     this.classList.add('is-paused')
     this.dialog.classList.add('is-paused')
-    if (th
+    if (this.timer) clearTimeout(this.timer)
+  }
+
+  
