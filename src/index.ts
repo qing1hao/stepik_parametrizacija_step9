@@ -695,4 +695,6 @@ class OpenStoriesElement extends HTMLElement {
     if (this.timer) clearTimeout(this.timer)
   }
 
-  
+  resume() {
+    this.paused = false
+    this.classL
