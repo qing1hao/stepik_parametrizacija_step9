@@ -699,4 +699,4 @@ class OpenStoriesElement extends HTMLElement {
     this.paused = false
     this.classList.remove('is-paused')
     this.dialog.classList.remove('is-paused')
-    this.currentBar?.querySelect
+    this.currentBar?.querySelector('.progress')?.addEventListener('animationend', this.g
