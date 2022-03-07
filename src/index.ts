@@ -703,4 +703,6 @@ class OpenStoriesElement extends HTMLElement {
   }
 
   appendImages() {
-    this.c
+    this.count = this.items.length
+    this.images = []
+    this.ba
