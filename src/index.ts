@@ -709,4 +709,6 @@ class OpenStoriesElement extends HTMLElement {
     this.promises = []
 
     const bars = this.root.querySelector('#bars')!
-    const images = this.roo
+    const images = this.root.querySelector('#images')!
+
+    for (const item of this.it
