@@ -714,4 +714,5 @@ class OpenStoriesElement extends HTMLElement {
     for (const item of this.items) {
       const bar = document.createElement('button')
       bar.type = 'button'
-      bar.cl
+      bar.classList.add('bar')
+      const idx = this.images.le
