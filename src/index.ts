@@ -715,4 +715,5 @@ class OpenStoriesElement extends HTMLElement {
       const bar = document.createElement('button')
       bar.type = 'button'
       bar.classList.add('bar')
-      const idx = this.images.le
+      const idx = this.images.length
+      bar.addEventListener('click', () => {
