@@ -720,4 +720,5 @@ class OpenStoriesElement extends HTMLElement {
         const delta = idx - this.currentIndex
         if (delta !== 0) this.goTo(delta)
       })
-      const progress = document.cr
+      const progress = document.createElement('div')
+      progress.classList.add(
