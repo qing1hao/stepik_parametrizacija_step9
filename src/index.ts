@@ -718,4 +718,5 @@ class OpenStoriesElement extends HTMLElement {
       const idx = this.images.length
       bar.addEventListener('click', () => {
         const delta = idx - this.currentIndex
-   
+        if (delta !== 0) this.goTo(delta)
+  
