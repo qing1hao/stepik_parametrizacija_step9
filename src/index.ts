@@ -719,4 +719,5 @@ class OpenStoriesElement extends HTMLElement {
       bar.addEventListener('click', () => {
         const delta = idx - this.currentIndex
         if (delta !== 0) this.goTo(delta)
-  
+      })
+      const progress = document.cr
