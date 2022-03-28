@@ -727,4 +727,5 @@ class OpenStoriesElement extends HTMLElement {
       bars.append(bar)
       this.bars.push(bar)
       const img = document.createElement('img')
-      this.promises.push(new Promise(resolve => 
+      this.promises.push(new Promise(resolve => img.addEventListener('load', resolve)))
+      img.src = item
