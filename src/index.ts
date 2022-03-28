@@ -726,4 +726,5 @@ class OpenStoriesElement extends HTMLElement {
       bar.append(progress)
       bars.append(bar)
       this.bars.push(bar)
+      const img = document.createElement('img')
  
