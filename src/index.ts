@@ -722,4 +722,4 @@ class OpenStoriesElement extends HTMLElement {
       })
       const progress = document.createElement('div')
       progress.classList.add('progress')
-      bar.setAttribute('aria-label', `${idx 
+      bar.setAttribute('aria-label', `${idx + 1} of ${this.items.length} ${this.items.length 
