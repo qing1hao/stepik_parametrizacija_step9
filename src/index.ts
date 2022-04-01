@@ -729,4 +729,4 @@ class OpenStoriesElement extends HTMLElement {
       const img = document.createElement('img')
       this.promises.push(new Promise(resolve => img.addEventListener('load', resolve)))
       img.src = item._open_stories.url
-      if ('alt' in item._open
+      if ('alt' in item._open_stories) img.alt = item._open_stories.alt
