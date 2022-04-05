@@ -732,4 +732,8 @@ class OpenStoriesElement extends HTMLElement {
       if ('alt' in item._open_stories) img.alt = item._open_stories.alt
       images.append(img)
       this.images.push(img)
+    }
+  }
   
+  async startTimer() {
+    awa
