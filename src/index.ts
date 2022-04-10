@@ -736,4 +736,5 @@ class OpenStoriesElement extends HTMLElement {
   }
   
   async startTimer() {
-    awa
+    await this.promises[0]
+    if (this.dialo
