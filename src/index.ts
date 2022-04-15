@@ -746,3 +746,6 @@ class OpenStoriesElement extends HTMLElement {
   }
   
   async goTo(delta: number | null = null) {
+    delta ||= 1
+    // Reset animation
+    if (
