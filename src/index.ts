@@ -738,4 +738,10 @@ class OpenStoriesElement extends HTMLElement {
   async startTimer() {
     await this.promises[0]
     if (this.dialog.classList.contains('is-loading')) {
-      this.dialog.classList.remove('is-loading'
+      this.dialog.classList.remove('is-loading')
+      this.bindEvents()
+    }
+
+    this.goTo()
+  }
+  
