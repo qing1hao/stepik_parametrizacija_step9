@@ -745,3 +745,4 @@ class OpenStoriesElement extends HTMLElement {
     this.goTo()
   }
   
+  async goTo(delta: number | null = null) {
