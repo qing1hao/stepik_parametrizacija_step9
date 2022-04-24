@@ -749,4 +749,6 @@ class OpenStoriesElement extends HTMLElement {
     delta ||= 1
     // Reset animation
     if (this.currentBar) {
-      this.currentBar.style.animation
+      this.currentBar.style.animation = 'none'
+      this.currentBar.offsetHeight
+      this.cu
