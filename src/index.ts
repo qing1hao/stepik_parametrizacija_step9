@@ -751,4 +751,5 @@ class OpenStoriesElement extends HTMLElement {
     if (this.currentBar) {
       this.currentBar.style.animation = 'none'
       this.currentBar.offsetHeight
-      this.cu
+      this.currentBar.style.removeProperty('animation')
+      this.c
