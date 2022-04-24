@@ -752,4 +752,6 @@ class OpenStoriesElement extends HTMLElement {
       this.currentBar.style.animation = 'none'
       this.currentBar.offsetHeight
       this.currentBar.style.removeProperty('animation')
-      this.c
+      this.currentBar.classList.remove('progressing')
+    } 
+    if (this
