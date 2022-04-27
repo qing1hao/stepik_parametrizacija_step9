@@ -755,4 +755,4 @@ class OpenStoriesElement extends HTMLElement {
       this.currentBar.classList.remove('progressing')
     } 
     if (this.timer) clearTimeout(this.timer)
-    if (this.curre
+    if (this.currentImage) this.currentImage.classList.remove('shown'
