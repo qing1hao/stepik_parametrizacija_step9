@@ -754,4 +754,5 @@ class OpenStoriesElement extends HTMLElement {
       this.currentBar.style.removeProperty('animation')
       this.currentBar.classList.remove('progressing')
     } 
-    if (this
+    if (this.timer) clearTimeout(this.timer)
+    if (this.curre
