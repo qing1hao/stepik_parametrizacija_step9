@@ -758,4 +758,5 @@ class OpenStoriesElement extends HTMLElement {
     if (this.currentImage) this.currentImage.classList.remove('shown')
 
     this.currentIndex += delta
-    i
+    if (this.currentIndex === this.count) {
+      this
