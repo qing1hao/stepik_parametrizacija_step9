@@ -759,4 +759,8 @@ class OpenStoriesElement extends HTMLElement {
 
     this.currentIndex += delta
     if (this.currentIndex === this.count) {
-      this
+      this.dialog.close()
+      return
+    }
+
+    this.curr
