@@ -764,4 +764,5 @@ class OpenStoriesElement extends HTMLElement {
     }
 
     this.currentBar = this.bars[this.currentIndex]
-    this.cu
+    this.currentImage = this.images[this.currentIndex]
+  
