@@ -765,4 +765,5 @@ class OpenStoriesElement extends HTMLElement {
 
     this.currentBar = this.bars[this.currentIndex]
     this.currentImage = this.images[this.currentIndex]
-    this.currentBar.classList.add('progressi
+    this.currentBar.classList.add('progressing', 'paused')
+    this.currentImage.classList.add('s
