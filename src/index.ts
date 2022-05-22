@@ -767,4 +767,5 @@ class OpenStoriesElement extends HTMLElement {
     this.currentImage = this.images[this.currentIndex]
     this.currentBar.classList.add('progressing', 'paused')
     this.currentImage.classList.add('shown')
-    this.dialog.classList.add('is-
+    this.dialog.classList.add('is-loading')
+    await this.promises[this.
