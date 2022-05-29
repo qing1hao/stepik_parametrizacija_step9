@@ -770,4 +770,6 @@ class OpenStoriesElement extends HTMLElement {
     this.dialog.classList.add('is-loading')
     await this.promises[this.currentIndex]
     this.dialog.classList.remove('is-loading')
-    this.currentBar.
+    this.currentBar.classList.remove('paused')
+
+    const item = 
