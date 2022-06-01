@@ -772,4 +772,5 @@ class OpenStoriesElement extends HTMLElement {
     this.dialog.classList.remove('is-loading')
     this.currentBar.classList.remove('paused')
 
-    const item = 
+    const item = this.items[this.currentIndex]
+    if (!this.isHigh
