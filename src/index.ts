@@ -773,4 +773,7 @@ class OpenStoriesElement extends HTMLElement {
     this.currentBar.classList.remove('paused')
 
     const item = this.items[this.currentIndex]
-    if (!this.isHigh
+    if (!this.isHighlight) this.setViewed(item.id)
+
+    // Populate
+    this.time
