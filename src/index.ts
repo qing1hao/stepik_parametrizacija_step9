@@ -776,4 +776,5 @@ class OpenStoriesElement extends HTMLElement {
     if (!this.isHighlight) this.setViewed(item.id)
 
     // Populate
-    this.time
+    this.time.textContent = this.relativeTime(item.date_published)
+    c
