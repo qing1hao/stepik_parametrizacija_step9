@@ -777,4 +777,4 @@ class OpenStoriesElement extends HTMLElement {
 
     // Populate
     this.time.textContent = this.relativeTime(item.date_published)
-    c
+    const caption = 'caption' in item._open_stor
