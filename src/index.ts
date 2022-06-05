@@ -778,4 +778,4 @@ class OpenStoriesElement extends HTMLElement {
     // Populate
     this.time.textContent = this.relativeTime(item.date_published)
     const caption = 'caption' in item._open_stories ? item._open_stories.caption : null
-    this.metadataDeta
+    this.metadataDetails.classList.remove('is-expanded', 'is-col
