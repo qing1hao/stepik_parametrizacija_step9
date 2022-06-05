@@ -780,4 +780,5 @@ class OpenStoriesElement extends HTMLElement {
     const caption = 'caption' in item._open_stories ? item._open_stories.caption : null
     this.metadataDetails.classList.remove('is-expanded', 'is-collapsed')
     this.meta.hidden = !caption
-    t
+    this.meta.textContent = caption || ''
+    if (this
