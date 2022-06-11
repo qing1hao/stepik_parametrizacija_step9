@@ -781,4 +781,5 @@ class OpenStoriesElement extends HTMLElement {
     this.metadataDetails.classList.remove('is-expanded', 'is-collapsed')
     this.meta.hidden = !caption
     this.meta.textContent = caption || ''
-    if (this
+    if (this.meta.clientWidth > this.metadataDetails.clientWidth) {
+ 
