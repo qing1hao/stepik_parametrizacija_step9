@@ -783,4 +783,7 @@ class OpenStoriesElement extends HTMLElement {
     this.meta.textContent = caption || ''
     if (this.meta.clientWidth > this.metadataDetails.clientWidth) {
       this.metadataDetails.classList.add('is-collapsed')
- 
+    }
+    this.prepareHeart()
+
+    this.link.href = `#${it
