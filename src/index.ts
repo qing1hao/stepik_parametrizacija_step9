@@ -786,4 +786,6 @@ class OpenStoriesElement extends HTMLElement {
     }
     this.prepareHeart()
 
-    this.link.href = `#${it
+    this.link.href = `#${item.id}`
+
+    if (this.currentIndex > this.count - 1) this.cur
