@@ -788,4 +788,6 @@ class OpenStoriesElement extends HTMLElement {
 
     this.link.href = `#${item.id}`
 
-    if (this.currentIndex > this.count - 1) this.cur
+    if (this.currentIndex > this.count - 1) this.currentIndex = 0
+
+    this.timer = window.setTimeout(
