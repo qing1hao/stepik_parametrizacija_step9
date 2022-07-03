@@ -791,4 +791,8 @@ class OpenStoriesElement extends HTMLElement {
     if (this.currentIndex > this.count - 1) this.currentIndex = 0
 
     this.timer = window.setTimeout(this.goTo.bind(this), this.duration * 1000)
-    if (this.paus
+    if (this.paused) this.pause()
+  }
+
+  get viewedKey() {
+ 
