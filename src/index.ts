@@ -795,4 +795,4 @@ class OpenStoriesElement extends HTMLElement {
   }
 
   get viewedKey() {
- 
+    return new URL(this.getAttribute('src')!, location.origin).
