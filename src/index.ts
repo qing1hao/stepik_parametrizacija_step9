@@ -801,4 +801,6 @@ class OpenStoriesElement extends HTMLElement {
   setViewed(id: string) {
     const lastViewedIndex = this.items.findIndex(item => item.id === this.getViewedId())
     const newViewedIndex = this.items.findIndex(item => item.id === id)
-    if (newViewedIndex < la
+    if (newViewedIndex < lastViewedIndex) return
+
+    const viewedByFeed 
