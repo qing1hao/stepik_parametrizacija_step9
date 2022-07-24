@@ -803,4 +803,4 @@ class OpenStoriesElement extends HTMLElement {
     const newViewedIndex = this.items.findIndex(item => item.id === id)
     if (newViewedIndex < lastViewedIndex) return
 
-    const viewedByFeed 
+    const viewedByFeed = JSON.parse(localStorage.getItem('_open_stories') ||
