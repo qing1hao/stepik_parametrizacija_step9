@@ -809,4 +809,4 @@ class OpenStoriesElement extends HTMLElement {
   }
 
   getViewedId() {
-    c
+    const viewedByFeed = JSON.parse(localStorage.getItem(
