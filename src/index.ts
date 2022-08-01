@@ -810,4 +810,8 @@ class OpenStoriesElement extends HTMLElement {
 
   getViewedId() {
     const viewedByFeed = JSON.parse(localStorage.getItem('_open_stories') || '{}')
-    return viewedByFeed
+    return viewedByFeed[this.viewedKey]
+  }
+
+  prepareHeart() {
+    const item =
