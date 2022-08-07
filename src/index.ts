@@ -815,4 +815,4 @@ class OpenStoriesElement extends HTMLElement {
 
   prepareHeart() {
     const item = this.items[this.currentIndex]
-    const hasUrl = (ite
+    const hasUrl = (item._open_stories.reactions?.open_heart_urls || []).len
