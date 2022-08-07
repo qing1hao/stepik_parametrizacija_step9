@@ -817,4 +817,5 @@ class OpenStoriesElement extends HTMLElement {
     const item = this.items[this.currentIndex]
     const hasUrl = (item._open_stories.reactions?.open_heart_urls || []).length > 0
     this.openHeart.hidden = !hasUrl
-    if (!h
+    if (!hasUrl) return
+    const keys = (localStorage.getIt
