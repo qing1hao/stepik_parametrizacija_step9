@@ -814,4 +814,5 @@ class OpenStoriesElement extends HTMLElement {
   }
 
   prepareHeart() {
-    const item =
+    const item = this.items[this.currentIndex]
+    const hasUrl = (ite
