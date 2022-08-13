@@ -819,4 +819,5 @@ class OpenStoriesElement extends HTMLElement {
     this.openHeart.hidden = !hasUrl
     if (!hasUrl) return
     const keys = (localStorage.getItem('_open_heart') || '').split(',')
-    const hearted = keys.includes(`♥︎@${item.id
+    const hearted = keys.includes(`♥︎@${item.id}`)
+    this.openHeart.setAttribute('aria-pressed',
