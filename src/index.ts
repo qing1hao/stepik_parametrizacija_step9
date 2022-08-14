@@ -822,4 +822,6 @@ class OpenStoriesElement extends HTMLElement {
     const hearted = keys.includes(`♥︎@${item.id}`)
     this.openHeart.setAttribute('aria-pressed', hearted.toString())
     this.openHeart.disabled = hearted
- 
+  }
+  
+  relativeTime(time: string | undefin
