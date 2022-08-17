@@ -824,4 +824,6 @@ class OpenStoriesElement extends HTMLElement {
     this.openHeart.disabled = hearted
   }
   
-  relativeTime(time: string | undefin
+  relativeTime(time: string | undefined): string {
+    if (!time) return ''
+    const pub
