@@ -827,4 +827,5 @@ class OpenStoriesElement extends HTMLElement {
   relativeTime(time: string | undefined): string {
     if (!time) return ''
     const published = new Date(time)
-    if (published
+    if (published.toString() === 'Invalid Date') return ''
+
