@@ -829,4 +829,5 @@ class OpenStoriesElement extends HTMLElement {
     const published = new Date(time)
     if (published.toString() === 'Invalid Date') return ''
 
-    const m = Math.round((new Date().getTime() - pub
+    const m = Math.round((new Date().getTime() - published.getTime()) / 1000 / 60)
+    if (m > 60 * 24)
