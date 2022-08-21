@@ -829,3 +829,4 @@ class OpenStoriesElement extends HTMLElement {
     const published = new Date(time)
     if (published.toString() === 'Invalid Date') return ''
 
+    const m = Math.round((new Date().getTime() - pub
