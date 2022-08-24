@@ -832,4 +832,5 @@ class OpenStoriesElement extends HTMLElement {
     const m = Math.round((new Date().getTime() - published.getTime()) / 1000 / 60)
     if (m > 60 * 24) {
       return `${Math.round(m / 60 / 24)}d`
-    } else
+    } else if (m > 60) {
+      return `${Math.roun
