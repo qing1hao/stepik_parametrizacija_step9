@@ -833,4 +833,8 @@ class OpenStoriesElement extends HTMLElement {
     if (m > 60 * 24) {
       return `${Math.round(m / 60 / 24)}d`
     } else if (m > 60) {
-      return `${Math.roun
+      return `${Math.round(m / 60)}h`
+    } else {
+      return `${m}m`
+    }
+ 
