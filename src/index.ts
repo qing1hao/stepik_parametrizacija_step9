@@ -840,4 +840,5 @@ class OpenStoriesElement extends HTMLElement {
   }
 }
 
-if (!window.customElements.get('
+if (!window.customElements.get('open-stories')) {
+  window.OpenStoriesElemen
