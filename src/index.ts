@@ -847,4 +847,6 @@ if (!window.customElements.get('open-stories')) {
 
 export default OpenStoriesElement
 
-declar
+declare global {
+  interface Window {
+    OpenSt
