@@ -842,4 +842,9 @@ class OpenStoriesElement extends HTMLElement {
 
 if (!window.customElements.get('open-stories')) {
   window.OpenStoriesElement = OpenStoriesElement
-  window.customElements.define('open-stories', OpenStoriesEle
+  window.customElements.define('open-stories', OpenStoriesElement)
+}
+
+export default OpenStoriesElement
+
+declar
