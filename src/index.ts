@@ -849,4 +849,6 @@ export default OpenStoriesElement
 
 declare global {
   interface Window {
-    OpenSt
+    OpenStoriesElement: typeof OpenStoriesElement
+  }
+  i
