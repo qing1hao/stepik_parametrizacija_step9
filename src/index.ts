@@ -851,4 +851,5 @@ declare global {
   interface Window {
     OpenStoriesElement: typeof OpenStoriesElement
   }
-  i
+  interface HTMLElementTagNameMap {
+    'open-stories
