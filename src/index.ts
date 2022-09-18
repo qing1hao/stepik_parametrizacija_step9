@@ -852,4 +852,6 @@ declare global {
     OpenStoriesElement: typeof OpenStoriesElement
   }
   interface HTMLElementTagNameMap {
-    'open-stories
+    'open-stories': OpenStoriesElement
+  }
+}
