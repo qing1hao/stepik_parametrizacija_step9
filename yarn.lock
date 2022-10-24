@@ -11,4 +11,6 @@
     "@jridgewell/sourcemap-codec" "^1.4.10"
     "@jridgewell/trace-mapping" "^0.3.9"
 
-"@jrid
+"@jridgewell/resolve-uri@^3.0.3":
+  version "3.1.0"
+  re
