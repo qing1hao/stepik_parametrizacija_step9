@@ -29,4 +29,5 @@
     "@jridgewell/gen-mapping" "^0.3.0"
     "@jridgewell/trace-mapping" "^0.3.9"
 
-"@jridg
+"@jridgewell/sourcemap-codec@^1.4.10":
+  versi
