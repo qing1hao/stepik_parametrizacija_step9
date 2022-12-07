@@ -30,4 +30,5 @@
     "@jridgewell/trace-mapping" "^0.3.9"
 
 "@jridgewell/sourcemap-codec@^1.4.10":
-  versi
+  version "1.4.14"
+  resolved "https://registry.yarnpkg.com/@jridgewell/
