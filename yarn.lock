@@ -40,4 +40,7 @@
   integrity sha512-bJWEfQ9lPTvm3SneWwRFVLzrh6nhjwqw7TUFFBEMzwvg7t7PCDenf2lDwqo4NQXzdpgBXyFgDWnQA+2vkruksQ==
   dependencies:
     "@jridgewell/resolve-uri" "^3.0.3"
-    "@jridg
+    "@jridgewell/sourcemap-codec" "^1.4.10"
+
+acorn@^8.5.0:
+  version "8.8.0
