@@ -59,4 +59,5 @@ commander@^2.20.0:
 
 openstories-types@0.0.9:
   version "0.0.9"
-  resolved "https://registry.yarnpkg.com/openstories-types/-/openstories-types-0.0.9.tgz#e0932ec8
+  resolved "https://registry.yarnpkg.com/openstories-types/-/openstories-types-0.0.9.tgz#e0932ec808930a24a869f2bbbd6b4220cb9eb6db"
+  integrity sha512-
