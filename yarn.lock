@@ -62,4 +62,6 @@ openstories-types@0.0.9:
   resolved "https://registry.yarnpkg.com/openstories-types/-/openstories-types-0.0.9.tgz#e0932ec808930a24a869f2bbbd6b4220cb9eb6db"
   integrity sha512-inVxrJ2zXSh/vJHZg1jUCpYjHww+qO2N7u0O0bliH+V7n+p99UrGehmqWKe6LCApBY3OrntbRtgXLkXzfMjRAw==
 
-source-map-support@
+source-map-support@~0.5.20:
+  version "0.5.21"
+  resolved "https://registry
