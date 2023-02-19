@@ -82,4 +82,7 @@ terser@^5.14.2:
   dependencies:
     "@jridgewell/source-map" "^0.3.2"
     acorn "^8.5.0"
-    commander "^2.20.0
+    commander "^2.20.0"
+    source-map-support "~0.5.20"
+
+typescript@^4
