@@ -85,4 +85,6 @@ terser@^5.14.2:
     commander "^2.20.0"
     source-map-support "~0.5.20"
 
-typescript@^4
+typescript@^4.7.4:
+  version "4.7.4"
+  resolved "htt
